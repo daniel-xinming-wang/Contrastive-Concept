@@ -1,0 +1,4437 @@
+[
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Mississippi'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Banana'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Excellence'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'm' appear in 'Committee'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Assessment'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Parallel'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Successes'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Bookkeeper'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Occurrences'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Misspelled'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Antidisestablishmentarianism'?",
+        "answer": "5"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'p' appear in 'Hippopotamus'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Supercalifragilisticexpialidocious'?",
+        "answer": "7"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Pneumonia'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Czechoslovakia'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'd' appear in 'Dodecahedron'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Subbookkeeper'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Passages'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Embarrassed'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Irresistible'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Inconsequential'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Authoritarian'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Zookeeper'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Kindergarten'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Trisection'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'z' appear in 'Tzatziki'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Otorhinolaryngology'?",
+        "answer": "5"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'u' appear in 'Queueing'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Abracadabra'?",
+        "answer": "5"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Procrastination'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Dismissiveness'?",
+        "answer": "5"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Rendezvous'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Possession'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Accession'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Vaccination'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Connoisseur'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Irreversible'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Exaggeration'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Recalibration'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Bouillabaisse'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Synchronization'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Zucchini'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'z' appear in 'Quizzes'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Broccoli'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Uncharacteristically'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'm' appear in 'Chrysanthemum'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Parallelism'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'm' appear in 'Millimeter'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Pollination'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'b' appear in 'Shibboleth'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Acetaminophen'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Dissonance'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'm' appear in 'Commercial'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Millennium'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'u' appear in 'Conundrum'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Pseudonym'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'm' appear in 'Embroilment'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Monotonous'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Transylvania'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Asthma'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'z' appear in 'Pizzazz'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Horseshoe'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Repetitiveness'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Approximation'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'j' appear in 'Fjord'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Hemisphere'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Subterranean'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Juxtaposition'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Unimaginable'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Repercussions'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Temporarily'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Questionnaire'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'p' appear in 'Hippocampus'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Metallurgy'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Ammunition'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Decommission'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'u' appear in 'Jujutsu'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Kookaburra'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Silhouette'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Ballyhoo'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Defibrillator'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'u' appear in 'Translucent'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'x' appear in 'Approximate'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Eccentricity'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'z' appear in 'Puzzlement'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Inexplicable'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Belligerent'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'm' appear in 'Millennium'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'm' appear in 'Subcommittee'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Serendipity'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Ballyhooed'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Surveillance'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Tectonic'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'd' appear in 'Dodecagon'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'm' appear in 'Thermodynamics'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Recapitulate'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Versailles'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Plagiarize'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Interscholastic'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Characterize'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Serotonin'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Deliquesce'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Intersperse'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Cloistered'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'm' appear in 'Pandemonium'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'h' appear in 'Schizophrenia'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'u' appear in 'Continuum'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Quarantine'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Malfeasance'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Ricochet'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'm' appear in 'Embellishment'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Onomatopoeia'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Oxymoron'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Synesthesia'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'z' appear in 'Razzmatazz'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'p' appear in 'Epiphany'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Warrantable'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'u' appear in 'Scrumptious'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Algorithmic'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Incontrovertible'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Coalescence'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Idiosyncratic'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Nondeterministic'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Irreconcilable'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'x' appear in 'Exclusionary'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'p' appear in 'Hippodrome'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Quadrilateral'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Coexistence'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'p' appear in 'Puppeteer'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Corroborate'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Linguistics'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'h' appear in 'Hierarchical'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Iridescent'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Contraption'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Disestablishing'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'u' appear in 'Fortuitous'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'm' appear in 'Accomplishment'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Circuitous'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Facilitation'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Disseminate'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Metallurgical'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Bureaucracy'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Typographical'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Ultramicroscopic'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Hematology'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Ecclesiastical'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'u' appear in 'Insurmountable'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Denouement'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Cognizant'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'u' appear in 'Accumulative'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Kaleidoscope'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Photosynthesis'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Metamorphosis'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Accreditation'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Hypnosis'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Inquisitive'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Reaccelerate'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Extravaganza'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Indiscernible'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Solemnity'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Baccalaureate'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Omnipresence'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Reacclimate'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Phyllophagous'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Vacillate'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'm' appear in 'Commissary'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Syllogism'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Elongation'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Whimsical'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Epitome'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Lexicographically'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'x' appear in 'Quixotic'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Infinitesimal'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Incessant'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'h' appear in 'Zephyr'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Eloquent'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'b' appear in 'Hyperbolic'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Effervescent'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Vociferous'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'u' appear in 'Boulevard'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'f' appear in 'Guffaw'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Kaleidoscopic'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Unassailable'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Propinquity'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Efflorescence'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Subtleties'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Satisfactory'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Eccentric'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Pseudocode'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Incorporate'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'u' appear in 'Incredulous'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Appaloosa'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Demarcation'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'y' appear in 'Syzygy'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Surveillance'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Establishment'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Thoroughbred'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Soothsayer'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Precipitation'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Mispronunciation'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Tautological'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Transmutation'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Unparalleled'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Contradistinction'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Counterintuitive'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Hyperventilate'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'z' appear in 'Overzealous'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Recreational'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Captivating'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'g' appear in 'Loggerheads'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Glossary'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Psychosis'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Taciturnity'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Quadrillion'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Brinkmanship'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Debilitate'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Fortnight'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Hexadecimal'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Improvisation'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'd' appear in 'Discordant'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Phenomenon'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Dichotomous'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Transgressive'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Thermostat'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Misinterpret'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Wainscoting'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Bamboozle'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Reaffirmation'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Classification'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Galvanize'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Unobtainable'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Stethoscope'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Conflagration'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Aggrandize'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Enumerate'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Perambulate'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Semiconductor'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Cohesiveness'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Posthumous'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Catastrophic'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'd' appear in 'Redundant'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Barracuda'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Inquisitorial'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Mulligatawny'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Hallucination'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Substantiate'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Parametric'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Adrenaline'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Brobdingnagian'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'g' appear in 'Quadriplegic'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'h' appear in 'Diphthong'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Schism'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Unconscionable'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Porcelain'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Myrrh'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Deliquescent'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Chronometer'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Emphasize'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Tesseract'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Equilibrium'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Unpredictable'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Thoroughly'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Unbelievable'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Premonition'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Applaudable'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Synchronous'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Precipitous'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Indubitably'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Confrontational'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Eloquent'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Incapacitate'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Synchronicity'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Bookbinding'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Feasibility'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Cosmopolitan'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'h' appear in 'Diphtheria'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Rendezvoused'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'p' appear in 'Polypropylene'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Jeroboam'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'f' appear in 'Hippogriff'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Schizoid'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Flabbergasted'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Contraption'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Conglomerate'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Indispensable'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'p' appear in 'Supplemental'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Abominable'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Embryology'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Encyclopedia'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Enthrall'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Polymorphism'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Lollapalooza'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Hyperion'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Chambermaid'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Poltergeist'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Disreputable'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'b' appear in 'Exorbitant'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'p' appear in 'Overlapping'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Systematic'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Hallmarks'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'm' appear in 'Commemorate'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Perfectionist'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'u' appear in 'Fruitful'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Endeavor'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Epithelial'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Sociology'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Tiptoeing'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Adjudicate'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Kleptomaniac'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Vertebrae'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Incoherent'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Articulate'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Connotation'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Antihistamine'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'h' appear in 'Photosynthesize'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Degenerative'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Armadillo'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'u' appear in 'Outmaneuver'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Configure'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Catastrophe'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Stationary'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'm' appear in 'Inflammatory'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Xanadu'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Undeniable'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Municipality'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'h' appear in 'Ophthalmologist'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Deodorant'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Fungicide'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Irresponsible'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'j' appear in 'Trajectory'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'h' appear in 'Worthwhile'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Preliminary'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Enumerating'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Gossamer'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'm' appear in 'Immunoassay'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Quantifiable'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Panoramic'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Quadrangle'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Extroverted'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Prerequisite'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Nonchalant'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'b' appear in 'Abbreviate'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Contrapuntal'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Derivative'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Torpedoed'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Disparaging'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Reciprocity'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Gubernatorial'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Shackles'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'u' appear in 'Outnumber'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Monarchial'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'h' appear in 'Phantasm'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Hallucinatory'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Mitochondria'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Anachronism'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Conjecture'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Incorruptible'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Vernacular'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Irrelevance'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Overcapitalization'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Exterminator'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Introverted'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Misanthrope'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Clarification'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'f' appear in 'Exemplify'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Interstellar'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Culpability'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'm' appear in 'Commensurate'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Polarization'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Rhetorically'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Carbohydrate'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Impeccable'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Bottleneck'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Contrarian'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Plenipotentiary'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Sentimentality'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Underestimate'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Collegiate'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Correlate'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Jurisdiction'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Horseradish'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Myocardial'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Disinclined'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Bibliophile'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Wellspring'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Pyrotechnics'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Cabalistic'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'u' appear in 'Unscrupulous'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Rehabilitate'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Interrogate'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Acknowledgment'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Caricature'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Impartiality'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Greenhouse'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'm' appear in 'Moneymaking'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Declaration'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Confection'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Dissident'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Decompress'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Stewardship'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Chronological'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Historiography'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Contradictory'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Educational'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'h' appear in 'Forethought'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Upholstery'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Misanthropic'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Noblewoman'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Surreptitiously'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Malfunction'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Deuteronomy'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Raccoon'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Thermocouple'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'y' appear in 'Skyline'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Globetrotter'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'd' appear in 'Ambidextrous'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Incandescent'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Photosensitive'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Braille'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'h' appear in 'Physiotherapy'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'p' appear in 'Comply'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Inconvenient'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Negotiation'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Unprecedented'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Illuminating'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Indefatigable'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Overabundance'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'm' appear in 'Nonflammable'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Retrospective'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Talisman'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Envelope'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Alphanumeric'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Rhinoceros'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Meteorology'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Toucan'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Audiovisual'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Equestrian'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Pantheon'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Staphylococcus'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'u' appear in 'Vestibular'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Martingale'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Oxyhemoglobin'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Hydroponic'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Effrontery'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Proliferation'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Triangulation'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Collusion'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Etymology'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'm' appear in 'Cumbersome'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Explosive'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Cognition'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Misidentify'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Amorphous'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Cornea'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Illuminati'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Mantissa'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Bioluminescent'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Algorithm'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Enumerated'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Entrepreneurship'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Misinterpretation'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Prophylaxis'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Fluorescent'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Shenanigans'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Corrugated'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Cordiality'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Edification'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Primeval'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Foreboding'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Underpinning'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'h' appear in 'Rhythmic'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Upholsterer'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Acquiescence'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Reconnaissance'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Myrmecology'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Arthroscopy'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'h' appear in 'Fuchsia'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'u' appear in 'Bivouac'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'u' appear in 'Spurious'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Vocational'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Labyrinthine'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Ouroboros'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Aardvark'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'm' appear in 'Flummoxed'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Kindergarten'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Precarious'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Karaoke'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Pneumatically'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Unceremonious'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Theoretical'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Disambiguation'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Bristle'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'b' appear in 'Bulbous'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Whittling'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Congruence'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Eavesdrop'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Piedmont'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Incantation'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Maximizing'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Garrulous'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Myositis'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Undercurrents'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'h' appear in 'Hypothesize'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Legitimize'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Annihilation'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Flaunting'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Reinstatement'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Circumnavigate'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'm' appear in 'Backgammon'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Zoological'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Tennessee'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Abracadabra'?",
+        "answer": "5"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Missouri'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'z' appear in 'Razzmatazz'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Possession'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Tossing'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Gossamers'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Misshapens'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Embarrassment'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'b' appear in 'Bubbles'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Shakespeare'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Millennium'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Bananarama'?",
+        "answer": "5"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Unnecessary'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'z' appear in 'Pizzazz'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Queueing'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Zookeeper'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Tattoo'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Cappuccino'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'p' appear in 'Approximate'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'g' appear in 'Zigzagging'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Alliteration'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Illustration'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Balloon'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Bookstore'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Streets'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Strawberry'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Beekeeper'?",
+        "answer": "5"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Reenter'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Freestyle'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Aardvark'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Tartar'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Hotshots'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Subsystems'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'y' appear in 'Syzygy'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'z' appear in 'Dizzy'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'z' appear in 'Fuzz'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'z' appear in 'Buzzing'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'z' appear in 'Dazzling'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'z' appear in 'Blizzard'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'f' appear in 'Puffball'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'f' appear in 'Faffing'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'f' appear in 'Graffiti'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'f' appear in 'Fluffier'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'f' appear in 'Saffron'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Sassafras'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Tsetse'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Assesses'?",
+        "answer": "5"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Obsess'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Addresses'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Hardnesses'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Aliases'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'p' appear in 'Happening'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'p' appear in 'Reappearing'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'p' appear in 'Tippy'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'p' appear in 'Zapping'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'b' appear in 'Cabbage'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'b' appear in 'Babbling'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'b' appear in 'Rabbit'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'b' appear in 'Bobbin'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Habitable'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Alphabetical'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Amalgamate'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Harassment'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Crossroads'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Classroom'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Uncleanness'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Keenness'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Weedy'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'u' appear in 'Queuing'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'h' appear in 'Shhhhhsh'?",
+        "answer": "6"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Daabaaaba'?",
+        "answer": "6"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Tsktsk'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Murmur'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Serendipity'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Disillusion'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Missiles'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Dissident'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Accordion'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Successor'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Reassessing'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Overzealous'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'm' appear in 'Accomplishment'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Booklet'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Tunnelling'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Fulfill'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Willingness'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Occasionally'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Necessary'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Resurrect'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Unnerved'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Doodling'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Snooping'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Assassin'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Tittletattle'?",
+        "answer": "6"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Misspoke'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Dissent'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Trespassing'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Transgress'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Assessing'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Teeth'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Goddesses'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Committee'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Bookkeeper'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Tennessee'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Gossamer'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Unnecessary'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'p' appear in 'Cappuccino'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'z' appear in 'Zigzagging'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Freestyle'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Aardvark'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Tartar'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Hotshots'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Subsystems'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'y' appear in 'Syzygy'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'z' appear in 'Dizzy'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'z' appear in 'Fuzz'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'z' appear in 'Buzzing'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'z' appear in 'Dazzling'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'z' appear in 'Blizzard'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'f' appear in 'Puffball'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'f' appear in 'Faffing'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'f' appear in 'Graffiti'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'f' appear in 'Fluffier'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'f' appear in 'Saffron'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Sassafras'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Tsetse'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Assesses'?",
+        "answer": "5"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Obsess'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'd' appear in 'Addresses'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Hardnesses'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Aliases'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'p' appear in 'Happening'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'p' appear in 'Reappearing'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'p' appear in 'Tippy'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'p' appear in 'Zapping'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'b' appear in 'Cabbage'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'b' appear in 'Babbling'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'b' appear in 'Rabbit'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'b' appear in 'Bobbin'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Habitable'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Alphabetical'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Amalgamate'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Harassment'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Crossroads'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Classroom'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Uncleanness'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Keenness'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Weedy'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'h' appear in 'Shh'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Tsktsk'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'm' appear in 'Murmur'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Serendipity'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Disillusion'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Missiles'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Dissident'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Accordion'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Successor'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Reassessing'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'z' appear in 'Overzealous'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Accomplishment'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Booklet'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Tunnelling'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Fulfill'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Willingness'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Occasionally'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Necessary'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Resurrect'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Unnerved'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'd' appear in 'Doodling'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Snooping'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Assassin'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Misspoke'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Tangerine'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'b' appear in 'Scrambled'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Pharaoh'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Grossness'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Tortuous'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'u' appear in 'Queue'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Bookkeeping'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Woolly'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Nonsense'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Cornerstone'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Broccoli'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Vaccination'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Pneumonia'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'z' appear in 'Gazebo'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Delicious'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'f' appear in 'Caffeinated'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'h' appear in 'Rhythmic'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'm' appear in 'Ammunition'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Onomatopoeia'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Juxtaposition'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'v' appear in 'Galvanize'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Kaleidoscope'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Irreversible'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Parallelism'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'q' appear in 'Acquiesce'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'h' appear in 'Chrysanthemum'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Shorthand'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Anonymous'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Eerie'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Syllable'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'm' appear in 'Accommodation'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'k' appear in 'Acknowledgment'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'f' appear in 'Affiliated'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Missive'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Signature'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Colloquium'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'p' appear in 'Opaque'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Fractional'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'd' appear in 'Dodecahedron'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Triangles'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Bilateral'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Cannibal'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'w' appear in 'Snowball'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Tomatoes'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'z' appear in 'Buzzwords'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'g' appear in 'Guzzling'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'w' appear in 'Whizzing'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Cheesiness'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'x' appear in 'Maximum'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'x' appear in 'Hexagon'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Trivia'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Vaccine'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'p' appear in 'Puppeteer'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Kangaroo'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Unbelievable'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Conversation'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Adorable'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Scissors'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'z' appear in 'Puzzle'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Battalion'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Accordionist'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Illogical'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Narrowness'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'p' appear in 'Disappear'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Unfolding'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'h' appear in 'Crunchiness'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Peculiarity'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'u' appear in 'Vacuum'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Icicle'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Cellophane'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Jellification'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Colossus'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Mosaics'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Articulate'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'd' appear in 'Hoarding'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Featherweight'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Zoology'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'f' appear in 'Baffling'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'f' appear in 'Rebuff'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Approximation'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Collapsing'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Substantiate'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Recalibrate'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Translucent'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Philosophy'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'h' appear in 'Photosynthesis'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'g' appear in 'Kilogram'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Hologram'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'g' appear in 'Bargaining'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Succeeded'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Missionary'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Llamas'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Tsar'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'z' appear in 'Quizzes'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Oozing'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Grooming'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Taco'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'h' appear in 'Schism'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Crescendo'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'm' appear in 'Momentum'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'm' appear in 'Murmuring'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Succulent'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Succumb'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Succinct'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Floccinaucinihilipilification'?",
+        "answer": "9"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Antidisestablishmentarianism'?",
+        "answer": "5"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'p' appear in 'Pseudopseudohypoparathyroidism'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Honorificabilitudinitatibus'?",
+        "answer": "7"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Supercalifragilisticexpialidocious'?",
+        "answer": "7"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Hippopotomonstrosesquipedaliophobia'?",
+        "answer": "7"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Inconceivable'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Uncharacteristically'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Parallelogram'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'm' appear in 'Commemoration'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Inconceivability'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'd' appear in 'Misunderstanding'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Reconciliation'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Underrepresentation'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'p' appear in 'Disproportionately'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Irresponsibility'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Unconstitutionality'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Disestablishment'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Counterrevolutionary'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Circumlocution'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Multifunctionality'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Electroencephalograph'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Microarchitecture'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Overintellectualize'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Disenfranchisement'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Intercontinental'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Insubordination'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Misinterpretation'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Nonconfrontational'?",
+        "answer": "5"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Hyperventilation'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Transcendentalism'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Unpredictability'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Decentralization'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Characteristically'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'x' appear in 'Extravaganza'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Interchangeability'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Photosensitivity'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Electrocardiogram'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Semiautobiographical'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Microenvironment'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Antagonistically'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'p' appear in 'Psychopharmacology'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Irrevocability'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Uncompromisingly'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Oversimplification'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Inconceivableness'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Vulnerability'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Intelligibility'?",
+        "answer": "5"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Uncontrollability'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Interdisciplinary'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Contradistinction'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Nonrepresentational'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Mischaracterization'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'a' appear in 'Paradoxical'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'u' appear in 'Uncommunicative'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Conceptualization'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Procrastination'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Incompatibility'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Overcompensation'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Inevitability'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'p' appear in 'Disproportionation'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Unenthusiastically'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Intransigence'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Conscientiousness'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Indistinguishable'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Multidimensionality'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Interoperability'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Preestablishment'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Hypercholesterolemia'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'p' appear in 'Subcompartmentalized'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Overgeneralization'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Electromagnetism'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Microbiological'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Institutionalization'?",
+        "answer": "5"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Transubstantiation'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Noninstitutional'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Mispronunciation'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Unconventionality'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'n' appear in 'Preponderance'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Counterintuitive'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Incompatibilities'?",
+        "answer": "5"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Micropaleontology'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Multiculturalism'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'k' appear in 'Pharmacokinetics'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'p' appear in 'Antipersonnel'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'e' appear in 'Heterogeneous'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Interconnectivity'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'l' appear in 'Chronologically'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Quintessential'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Bureaucratization'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Interpenetration'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Overindustrialization'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'c' appear in 'Subcategorization'?",
+        "answer": "1"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'o' appear in 'Disproportionable'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'r' appear in 'Extracurricular'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'm' appear in 'Incommensurable'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'd' appear in 'Misunderestimated'?",
+        "answer": "2"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 'i' appear in 'Unexceptionability'?",
+        "answer": "3"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 's' appear in 'Hyperresponsiveness'?",
+        "answer": "4"
+    },
+    {
+        "category": "Counting repeated letters",
+        "question": "How many times does the letter 't' appear in 'Incontrovertible'?",
+        "answer": "2"
+    }
+]

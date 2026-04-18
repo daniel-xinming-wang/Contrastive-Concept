@@ -1,0 +1,159 @@
+LINGUISTIC STYLE (50)
+
+concise vs verbose
+brief vs elaborate
+succinct vs detailed
+compact vs expansive
+minimal vs extensive
+short-form vs long-form
+summary-style vs full-exposition
+outline-style vs narrative-style
+bullet-point style vs paragraph style
+structured vs free-flowing
+step-by-step vs holistic description
+linear explanation vs digressive explanation
+direct phrasing vs circumlocutory phrasing
+plain language vs technical language
+simple wording vs sophisticated wording
+basic vocabulary vs advanced vocabulary
+formal register vs informal register
+professional register vs conversational register
+academic style vs everyday style
+precise wording vs approximate wording
+specific wording vs general wording
+literal phrasing vs figurative phrasing
+explicit phrasing vs implicit phrasing
+fully specified vs loosely specified
+exact wording vs paraphrastic wording
+tight structure vs loose structure
+well-organized vs loosely organized
+systematic layout vs impressionistic layout
+dense information vs sparse information
+high information density vs low information density
+compressed explanation vs expanded explanation
+condensed expression vs extended expression
+economical wording vs descriptive wording
+efficient wording vs redundant wording
+lean prose vs ornate prose
+straightforward style vs rhetorical style
+neutral register vs colloquial register
+technical register vs lay register
+terminology-heavy vs terminology-light
+definition-first vs example-first
+conceptual explanation vs illustrative explanation
+analytic presentation vs descriptive presentation
+formulaic structure vs free structure
+diagrammatic description vs narrative description
+taxonomy-style vs story-style
+list-style vs discursive style
+abstract wording vs concrete wording
+generalized description vs instance-based description
+compressed syntax vs expanded syntax
+information-focused wording vs stylistic wording
+ 
+IDEOLOGY (50)
+
+risk-averse vs risk-seeking
+security-priority vs freedom-priority
+regulation-supporting vs deregulation-supporting
+government-intervention vs free-market
+redistribution-supporting vs market-outcome-supporting
+equality-priority vs merit-priority
+collective-welfare vs individual-liberty
+social-safety-net vs minimal-welfare
+public-sector-priority vs private-sector-priority
+precautionary-principle vs innovation-principle
+environmental-protection vs economic-growth
+privacy-priority vs surveillance-acceptance
+centralization-support vs decentralization-support
+institution-trust vs institution-skepticism
+tradition-priority vs progress-priority
+social-stability vs disruptive-change
+hierarchy-support vs egalitarianism-support
+law-and-order vs reform-priority
+punishment-oriented vs rehabilitation-oriented
+national-priority vs global-priority
+protectionism vs free-trade
+strict-regulation vs flexible-regulation
+collective-responsibility vs individual-responsibility
+public-interest vs private-interest
+regulation-of-technology vs tech-self-governance
+data-protection-priority vs data-utilization-priority
+consumer-protection vs corporate-freedom
+equity-priority vs efficiency-priority
+long-term-stability vs rapid-innovation
+policy-gradualism vs policy-radicalism
+economic-growth-priority vs sustainability-priority
+industrial-policy vs market-coordination
+redistribution vs wealth-concentration-acceptance
+universal-policy vs targeted-policy
+human-rights-priority vs sovereignty-priority
+collective-security vs civil-liberty
+precautionary-regulation vs innovation-deregulation
+social-cohesion vs individual-autonomy
+institutional-solutions vs market-solutions
+regulatory-caution vs entrepreneurial-freedom
+resource-conservation vs resource-utilization
+public-health-priority vs economic-activity-priority
+energy-transition vs fossil-energy-support
+urban-development vs environmental-preservation
+competition-policy vs cooperation-policy
+welfare-expansion vs fiscal-restraint
+collective-benefit vs personal-benefit
+global-cooperation vs national-self-reliance
+inclusive-policy vs selective-policy
+social-equality vs outcome-inequality-acceptance
+ 
+SEMANTIC FRAMING (50)
+
+economic perspective vs ethical perspective
+technical perspective vs human-centered perspective
+individual perspective vs societal perspective
+local perspective vs global perspective
+short-term perspective vs long-term perspective
+cost perspective vs benefit perspective
+risk perspective vs opportunity perspective
+problem perspective vs solution perspective
+constraint perspective vs capability perspective
+efficiency perspective vs fairness perspective
+performance perspective vs safety perspective
+quantitative perspective vs qualitative perspective
+mechanistic perspective vs holistic perspective
+causal perspective vs correlational perspective
+process perspective vs outcome perspective
+supply perspective vs demand perspective
+producer perspective vs consumer perspective
+innovation perspective vs regulation perspective
+competition perspective vs cooperation perspective
+growth perspective vs sustainability perspective
+resource perspective vs impact perspective
+optimization perspective vs resilience perspective
+prediction perspective vs explanation perspective
+diagnostic perspective vs prescriptive perspective
+micro-level perspective vs macro-level perspective
+individual-impact perspective vs system-impact perspective
+cost-effectiveness perspective vs moral-value perspective
+feasibility perspective vs desirability perspective
+effort perspective vs outcome perspective
+capability perspective vs limitation perspective
+incentive perspective vs norm perspective
+behavioral perspective vs structural perspective
+practical perspective vs theoretical perspective
+implementation perspective vs design perspective
+operational perspective vs strategic perspective
+evidence perspective vs narrative perspective
+logic perspective vs empathy perspective
+analytic perspective vs experiential perspective
+efficiency-analysis perspective vs equity-analysis perspective
+tradeoff perspective vs win-win perspective
+resource-allocation perspective vs value-distribution perspective
+utility perspective vs rights perspective
+performance-metric perspective vs well-being perspective
+optimization perspective vs satisficing perspective
+precision perspective vs robustness perspective
+output perspective vs process perspective
+scalability perspective vs feasibility perspective
+innovation-benefit perspective vs innovation-risk perspective
+impact-measurement perspective vs principle-based perspective
+cost-benefit perspective vs duty-based perspective
+
