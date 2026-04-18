@@ -1,7 +1,7 @@
 #!/bin/bash
 set -euo pipefail
 
-MODEL="${MODEL:-llama_3_8b_it}"
+MODEL="${MODEL:-qwen2_5_3b_it}"
 CATEGORIES="${CATEGORIES:-}"
 MAX_PAIRS_PER_CATEGORY="${MAX_PAIRS_PER_CATEGORY:-}"
 MAX_STATEMENTS="${MAX_STATEMENTS:-100}"
