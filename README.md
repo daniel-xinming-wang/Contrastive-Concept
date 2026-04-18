@@ -121,16 +121,7 @@ This follows the same overall style as `neural_controllers-xrfm`:
 - use `AutoTokenizer.from_pretrained(...)`
 - infer the default hidden layers from `model.config.num_hidden_layers`
 
-Supported aliases currently include:
-
-- `llama_3_8b_it`
-- `llama_3.3_70b_4bit_it`
-- `llama_3.1_70b_4bit_it`
-- `llama_3.3_70b_it`
-- `gemma_2_9b_it`
-- `qwq_32b`
-
-You can also pass a raw Hugging Face model id.
+You can pass either a model alias configured in the codebase, a raw Hugging Face model id, or a local model path. Actual availability depends on the runtime environment and model access permissions.
 
 ### 5. Hidden-state extraction
 

@@ -108,7 +108,7 @@ def save_pair_bundle(
 
         for layer_idx, layer_hidden_states in variant_hidden_states.items():
             layer_path = variant_dir / f"layer_{layer_idx}.npy"
-            np.save(layer_path, layer_hidden_states.numpy())
+            np.save(layer_path, layer_hidden_states.to(torch.float32).numpy())
             saved_files[variant].append(str(layer_path.name))
 
     metadata_path = output_dir / "metadata.json"
