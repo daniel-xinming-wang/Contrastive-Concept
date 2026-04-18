@@ -2,7 +2,7 @@
 
 This directory contains a small hidden-state extraction pipeline adapted from `neural_controllers-xrfm` for the contrastive concept setup in [contrastive_concepts.txt](/Users/xinmingwang/Library/CloudStorage/OneDrive-NationalUniversityofSingapore/Wisc/contrastive_concepts.txt).
 
-The current goal is not to train steering vectors yet. The current goal is to:
+The goal is to:
 
 1. Parse the contrastive concept pairs.
 2. Build `negative / base / positive` prompts from neutral statements.
@@ -36,28 +36,29 @@ Each pair is stored as a `ContrastivePair` with:
 
 The current parser assumes the left side of `A vs B` is the `positive` concept and the right side is the `negative` concept for bookkeeping. This does not yet imply any learned steering direction.
 
-### 2. Neutral statements
+### 2. Statement files
 
-The current pipeline uses the same style of generic neutral statements that appear in the original `neural_controllers-xrfm` project.
+The current pipeline no longer reads the upstream `400_general_statements` files directly.
 
-By default, the CLI reads:
+Instead, it reads our own three statement files:
 
-- [class_0.txt](/Users/xinmingwang/Library/CloudStorage/OneDrive-NationalUniversityofSingapore/Wisc/neural_controllers-xrfm/Steering-monitoring-data/400_general_statements/class_0.txt)
-- [class_1.txt](/Users/xinmingwang/Library/CloudStorage/OneDrive-NationalUniversityofSingapore/Wisc/neural_controllers-xrfm/Steering-monitoring-data/400_general_statements/class_1.txt)
+- [class_0.txt](/Users/xinmingwang/Library/CloudStorage/OneDrive-NationalUniversityofSingapore/Wisc/contrastive_hidden_states/data/statements_300/class_0.txt)
+- [class_1.txt](/Users/xinmingwang/Library/CloudStorage/OneDrive-NationalUniversityofSingapore/Wisc/contrastive_hidden_states/data/statements_300/class_1.txt)
+- [class_2.txt](/Users/xinmingwang/Library/CloudStorage/OneDrive-NationalUniversityofSingapore/Wisc/contrastive_hidden_states/data/statements_300/class_2.txt)
 
-Right now, these files contribute a pool of neutral statements such as:
+These were created by taking the first `300` statements from the original upstream statement pool and splitting them sequentially into three groups of `100`.
 
-- `Life is what you make of it.`
-- `Truth is objective.`
+The mapping is:
 
-These statements are not labeled during extraction. They are used as content anchors for prompt construction.
+- `class_0.txt -> negative`
+- `class_1.txt -> base`
+- `class_2.txt -> positive`
+
+So the three prompt variants do not share the same statement text. Each variant reads from its own class file.
 
 ### 3. Prompt construction
 
-The file [contrastive_hidden_states/prompts.py](/Users/xinmingwang/Library/CloudStorage/OneDrive-NationalUniversityofSingapore/Wisc/contrastive_hidden_states/prompts.py) builds three prompts for each:
-
-- concept pair
-- neutral statement
+The file [contrastive_hidden_states/prompts.py](/Users/xinmingwang/Library/CloudStorage/OneDrive-NationalUniversityofSingapore/Wisc/contrastive_hidden_states/prompts.py) builds prompts for each concept pair using three separate statement groups.
 
 The three variants are:
 
@@ -79,26 +80,26 @@ Then category-specific instructions are prepended:
 - `ideology`: `Adopt the following ideological stance: {concept}.`
 - `semantic_framing`: `Adopt the following semantic framing: {concept}.`
 
-For example, for `concise vs verbose` and statement `Life is what you make of it.`, the three prompts are:
+For example, for `concise vs verbose`, the three prompts are built from three different statement files:
 
 ```text
 negative:
 Adopt the following linguistic style: verbose.
 
 What are your thoughts on the following statement?
-Statement: Life is what you make of it.
+Statement: <statement from class_0.txt>
 Response:
 
 base:
 What are your thoughts on the following statement?
-Statement: Life is what you make of it.
+Statement: <statement from class_1.txt>
 Response:
 
 positive:
 Adopt the following linguistic style: concise.
 
 What are your thoughts on the following statement?
-Statement: Life is what you make of it.
+Statement: <statement from class_2.txt>
 Response:
 ```
 
@@ -186,7 +187,7 @@ For `.npy` mode, each file contains one layer for one variant, shaped roughly as
 (num_statements, hidden_dim)
 ```
 
-If `--max-statements 20`, each saved layer file for one variant will have 20 rows.
+If `--max-statements 20`, each saved layer file for one variant will have 20 rows from its own class file.
 
 ## File Overview
 

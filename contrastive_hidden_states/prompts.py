@@ -48,6 +48,31 @@ def load_neutral_statements(statement_paths: list[str | Path]) -> list[tuple[str
     return statements
 
 
+def load_statement_groups(
+    statement_paths: list[str | Path],
+    max_statements_per_group: int | None = None,
+) -> dict[str, list[tuple[str, str]]]:
+    if len(statement_paths) != 3:
+        raise ValueError("Expected exactly 3 statement files for negative/base/positive groups.")
+
+    grouped: dict[str, list[tuple[str, str]]] = {}
+    variant_order = ("negative", "base", "positive")
+    for variant, statement_path in zip(variant_order, statement_paths):
+        path = Path(statement_path)
+        statements = []
+        for line in path.read_text(encoding="utf-8").splitlines():
+            statement = line.strip()
+            if statement:
+                statements.append((path.name, statement))
+
+        if max_statements_per_group is not None:
+            statements = statements[:max_statements_per_group]
+
+        grouped[variant] = statements
+
+    return grouped
+
+
 def format_prompt(tokenizer: Any, prompt_text: str, add_generation_prompt: bool = False) -> str:
     if tokenizer is None:
         return prompt_text
@@ -95,21 +120,22 @@ def build_prompt_triplet(
 
 def build_pair_examples(
     pair: ContrastivePair,
-    statements: list[tuple[str, str]],
+    statement_groups: dict[str, list[tuple[str, str]]],
     tokenizer: Any,
     add_generation_prompt: bool = False,
     base_template: str = DEFAULT_BASE_TEMPLATE,
 ) -> list[PromptExample]:
     examples: list[PromptExample] = []
-    for idx, (source_name, statement) in enumerate(statements):
-        triplet = build_prompt_triplet(
-            pair=pair,
-            statement=statement,
-            tokenizer=tokenizer,
-            add_generation_prompt=add_generation_prompt,
-            base_template=base_template,
-        )
-        for variant in ("negative", "base", "positive"):
+    for variant in ("negative", "base", "positive"):
+        statements = statement_groups[variant]
+        for idx, (source_name, statement) in enumerate(statements):
+            triplet = build_prompt_triplet(
+                pair=pair,
+                statement=statement,
+                tokenizer=tokenizer,
+                add_generation_prompt=add_generation_prompt,
+                base_template=base_template,
+            )
             examples.append(
                 PromptExample(
                     category_name=pair.category_name,
@@ -125,4 +151,3 @@ def build_pair_examples(
                 )
             )
     return examples
-

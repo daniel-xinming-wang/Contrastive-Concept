@@ -6,12 +6,13 @@ from pathlib import Path
 from contrastive_hidden_states.concepts import parse_contrastive_concepts
 from contrastive_hidden_states.hidden_states import get_hidden_states, save_pair_bundle
 from contrastive_hidden_states.models import default_hidden_layers, load_model_and_tokenizer
-from contrastive_hidden_states.prompts import build_pair_examples, load_neutral_statements
+from contrastive_hidden_states.prompts import build_pair_examples, load_statement_groups
 
 
 DEFAULT_STATEMENT_FILES = [
-    "neural_controllers-xrfm/Steering-monitoring-data/400_general_statements/class_0.txt",
-    "neural_controllers-xrfm/Steering-monitoring-data/400_general_statements/class_1.txt",
+    "contrastive_hidden_states/data/statements_300/class_0.txt",
+    "contrastive_hidden_states/data/statements_300/class_1.txt",
+    "contrastive_hidden_states/data/statements_300/class_2.txt",
 ]
 
 
@@ -28,7 +29,7 @@ def parse_args() -> argparse.Namespace:
         "--statement-files",
         nargs="+",
         default=DEFAULT_STATEMENT_FILES,
-        help="Neutral statement files used to build prompts.",
+        help="Three statement files mapped to negative/base/positive in that order.",
     )
     parser.add_argument(
         "--model",
@@ -50,7 +51,7 @@ def parse_args() -> argparse.Namespace:
         "--max-statements",
         type=int,
         default=None,
-        help="Optional limit on the number of neutral statements.",
+        help="Optional limit on the number of statements loaded from each class file.",
     )
     parser.add_argument(
         "--categories",
@@ -103,9 +104,10 @@ def main() -> None:
             key: pairs for key, pairs in concept_groups.items() if key in requested
         }
 
-    statements = load_neutral_statements(args.statement_files)
-    if args.max_statements is not None:
-        statements = statements[: args.max_statements]
+    statement_groups = load_statement_groups(
+        args.statement_files,
+        max_statements_per_group=args.max_statements,
+    )
 
     model, tokenizer, resolved_name = load_model_and_tokenizer(
         model_name_or_path=args.model,
@@ -121,7 +123,9 @@ def main() -> None:
     run_config = {
         "concepts_file": str(Path(args.concepts_file).resolve()),
         "statement_files": [str(Path(path).resolve()) for path in args.statement_files],
-        "num_statements": len(statements),
+        "num_statements_per_variant": {
+            variant: len(statements) for variant, statements in statement_groups.items()
+        },
         "model_arg": args.model,
         "resolved_model_name": resolved_name,
         "batch_size": args.batch_size,
@@ -138,7 +142,7 @@ def main() -> None:
             print(f"Processing {pair.slug}")
             examples = build_pair_examples(
                 pair=pair,
-                statements=statements,
+                statement_groups=statement_groups,
                 tokenizer=tokenizer,
                 add_generation_prompt=args.add_generation_prompt,
             )
