@@ -1,11 +1,9 @@
 # Contrastive Hidden States
 
-This directory contains a small hidden-state extraction pipeline adapted from `neural_controllers-xrfm` for the contrastive concept setup in [contrastive_concepts.txt](/Users/xinmingwang/Library/CloudStorage/OneDrive-NationalUniversityofSingapore/Wisc/contrastive_concepts.txt).
-
 The goal is to:
 
 1. Parse the contrastive concept pairs.
-2. Build `negative / base / positive` prompts from neutral statements.
+2. Build `negative / base / positive` prompts from three local statement classes.
 3. Run a local Hugging Face causal LM with `output_hidden_states=True`.
 4. Save hidden states separately for each prompt variant.
 
@@ -38,7 +36,7 @@ The current parser assumes the left side of `A vs B` is the `positive` concept a
 
 ### 2. Statement files
 
-The current pipeline no longer reads the upstream `400_general_statements` files directly.
+The current pipeline no longer reads the upstream `400_general_statements` files directly at runtime.
 
 Instead, it reads our own three statement files:
 
@@ -46,7 +44,7 @@ Instead, it reads our own three statement files:
 - [class_1.txt](/Users/xinmingwang/Library/CloudStorage/OneDrive-NationalUniversityofSingapore/Wisc/contrastive_hidden_states/data/statements_300/class_1.txt)
 - [class_2.txt](/Users/xinmingwang/Library/CloudStorage/OneDrive-NationalUniversityofSingapore/Wisc/contrastive_hidden_states/data/statements_300/class_2.txt)
 
-These were created by taking the first `300` statements from the original upstream statement pool and splitting them sequentially into three groups of `100`.
+These were created by taking the first `300` statements from the original upstream statement pool and splitting them sequentially into three groups of exactly `100`.
 
 The mapping is:
 
@@ -55,6 +53,12 @@ The mapping is:
 - `class_2.txt -> positive`
 
 So the three prompt variants do not share the same statement text. Each variant reads from its own class file.
+
+This is the current default runtime behavior in [extract_hidden_states.py](/Users/xinmingwang/Library/CloudStorage/OneDrive-NationalUniversityofSingapore/Wisc/extract_hidden_states.py):
+
+- `negative` prompts are built only from `class_0.txt`
+- `base` prompts are built only from `class_1.txt`
+- `positive` prompts are built only from `class_2.txt`
 
 ### 3. Prompt construction
 
@@ -104,6 +108,8 @@ Response:
 ```
 
 If the tokenizer supports chat templates, the prompt is wrapped with `tokenizer.apply_chat_template(...)` before extraction.
+
+This means the current code is not using a paired-triplet setup where the same statement is reused for all three variants. It is using three distinct statement pools.
 
 ### 4. Model loading
 
@@ -189,6 +195,11 @@ For `.npy` mode, each file contains one layer for one variant, shaped roughly as
 
 If `--max-statements 20`, each saved layer file for one variant will have 20 rows from its own class file.
 
+In other words:
+
+- `--max-statements 20` means 20 `negative` statements, 20 `base` statements, and 20 `positive` statements
+- total prompts per concept pair will then be 60
+
 ## File Overview
 
 - [extract_hidden_states.py](/Users/xinmingwang/Library/CloudStorage/OneDrive-NationalUniversityofSingapore/Wisc/extract_hidden_states.py): CLI entry point
@@ -212,6 +223,12 @@ python extract_hidden_states.py \
   --batch-size 2 \
   --save-format npy
 ```
+
+This run uses:
+
+- 5 rows from `class_0.txt` for `negative`
+- 5 rows from `class_1.txt` for `base`
+- 5 rows from `class_2.txt` for `positive`
 
 ### Larger run
 
@@ -237,6 +254,7 @@ This code currently does not:
 - compute steering vectors
 - train RFM or linear probes
 - compute `positive - base` or `positive - negative` differences
+- reuse the same statement across all three prompt variants
 - aggregate concept pairs into category-level vectors
 
 It is only the hidden-state extraction stage.
