@@ -1,0 +1,45 @@
+{
+  "run_config": {
+    "concepts_file": "/content/drive/MyDrive/Wisc/contrastive_concepts.txt",
+    "statement_files": [
+      "/content/drive/MyDrive/Wisc/contrastive_hidden_states/data/statements_300/class_0.txt",
+      "/content/drive/MyDrive/Wisc/contrastive_hidden_states/data/statements_300/class_1.txt",
+      "/content/drive/MyDrive/Wisc/contrastive_hidden_states/data/statements_300/class_2.txt"
+    ],
+    "statement_mapping": {
+      "negative": "class_0.txt",
+      "base": "class_1.txt",
+      "positive": "class_2.txt"
+    },
+    "num_statements_per_variant": {
+      "negative": 10,
+      "base": 10,
+      "positive": 10
+    },
+    "model_arg": "qwen2_5_3b_it",
+    "resolved_model_name": "Qwen/Qwen2.5-3B-Instruct",
+    "batch_size": 1,
+    "max_new_tokens": 1000,
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "add_generation_prompt": true
+  },
+  "num_examples": 30,
+  "variant_counts": {
+    "negative": 10,
+    "base": 10,
+    "positive": 10
+  },
+  "saved_files": {
+    "negative": [
+      "generations.jsonl"
+    ],
+    "base": [
+      "generations.jsonl"
+    ],
+    "positive": [
+      "generations.jsonl"
+    ]
+  }
+}

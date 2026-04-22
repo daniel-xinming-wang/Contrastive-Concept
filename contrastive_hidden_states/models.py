@@ -14,6 +14,7 @@ MODEL_ALIASES = {
     "llama_3.3_70b_it": "meta-llama/Llama-3.3-70B-Instruct",
     "gemma_2_9b_it": "google/gemma-2-9b-it",
     "qwq_32b": "Qwen/QwQ-32B",
+    "qwen2_0_5b_it": "Qwen/Qwen2-0.5B-Instruct",
     "qwen2_5_3b_it": "Qwen/Qwen2.5-3B-Instruct",
     "qwen2_5_7b_it": "Qwen/Qwen2.5-7B-Instruct",
 }

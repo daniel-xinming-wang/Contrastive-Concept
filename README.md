@@ -6,6 +6,7 @@ The goal is to:
 2. Build `negative / base / positive` prompts from three local statement classes.
 3. Run a local Hugging Face causal LM with `output_hidden_states=True`.
 4. Save hidden states separately for each prompt variant.
+5. Optionally run text generation for the same prompt set and save responses separately.
 
 ## Current Logic
 
@@ -59,6 +60,12 @@ This is the current default runtime behavior in [extract_hidden_states.py](/User
 - `negative` prompts are built only from `class_0.txt`
 - `base` prompts are built only from `class_1.txt`
 - `positive` prompts are built only from `class_2.txt`
+
+The generation pipeline in [generate_responses.py](/Users/xinmingwang/Library/CloudStorage/OneDrive-NationalUniversityofSingapore/Wisc/generate_responses.py) uses the same mapping:
+
+- `negative` generation prompts use only `class_0.txt`
+- `base` generation prompts use only `class_1.txt`
+- `positive` generation prompts use only `class_2.txt`
 
 ### 3. Prompt construction
 
@@ -194,10 +201,12 @@ In other words:
 ## File Overview
 
 - [extract_hidden_states.py](/Users/xinmingwang/Library/CloudStorage/OneDrive-NationalUniversityofSingapore/Wisc/extract_hidden_states.py): CLI entry point
+- [generate_responses.py](/Users/xinmingwang/Library/CloudStorage/OneDrive-NationalUniversityofSingapore/Wisc/generate_responses.py): CLI entry point for text generation
 - [contrastive_hidden_states/concepts.py](/Users/xinmingwang/Library/CloudStorage/OneDrive-NationalUniversityofSingapore/Wisc/contrastive_hidden_states/concepts.py): parse categories and contrastive pairs
 - [contrastive_hidden_states/prompts.py](/Users/xinmingwang/Library/CloudStorage/OneDrive-NationalUniversityofSingapore/Wisc/contrastive_hidden_states/prompts.py): build `negative / base / positive` prompts
 - [contrastive_hidden_states/models.py](/Users/xinmingwang/Library/CloudStorage/OneDrive-NationalUniversityofSingapore/Wisc/contrastive_hidden_states/models.py): load local HF model and tokenizer
 - [contrastive_hidden_states/hidden_states.py](/Users/xinmingwang/Library/CloudStorage/OneDrive-NationalUniversityofSingapore/Wisc/contrastive_hidden_states/hidden_states.py): extract and save hidden states
+- [contrastive_hidden_states/generation.py](/Users/xinmingwang/Library/CloudStorage/OneDrive-NationalUniversityofSingapore/Wisc/contrastive_hidden_states/generation.py): generate and save text outputs
 
 ## How To Run
 
@@ -220,6 +229,47 @@ This run uses:
 - 5 rows from `class_0.txt` for `negative`
 - 5 rows from `class_1.txt` for `base`
 - 5 rows from `class_2.txt` for `positive`
+
+### Generation run
+
+To generate text outputs instead of hidden states, run:
+
+```bash
+python generate_responses.py \
+  --model qwen2_5_7b_it \
+  --max-pairs-per-category 5 \
+  --max-statements 10 \
+  --batch-size 2 \
+  --max-new-tokens 128
+```
+
+This run uses the same statement mapping as above:
+
+- `negative -> class_0.txt`
+- `base -> class_1.txt`
+- `positive -> class_2.txt`
+
+By default, this will process:
+
+- first `5` pairs from `linguistic_style`
+- first `5` pairs from `ideology`
+- first `5` pairs from `semantic_framing`
+- first `10` statements from each statement class
+
+Outputs are saved under:
+
+```text
+outputs/generations/<model>/<category>/<pair_slug>/
+```
+
+Each pair directory contains:
+
+```text
+metadata.json
+negative/generations.jsonl
+base/generations.jsonl
+positive/generations.jsonl
+```
 
 ### Larger run
 
