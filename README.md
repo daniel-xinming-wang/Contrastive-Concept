@@ -177,4 +177,4 @@ shared = ((pos_mean + neg_mean) / 2.0) - base_mean
 contrast = pos_mean - neg_mean
 ```
 
-The norm and entanglement plots are computed per pair/layer first, then summarized across pairs by layer. Saved CSV outputs are written to `contrast_sanity_outputs/`. Normal layer order uses `layer_index = 1` for the earliest layer and larger values for later layers.
+The norm and entanglement plots are computed per pair/layer first, then summarized across pairs by layer.
