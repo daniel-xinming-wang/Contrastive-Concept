@@ -1,13 +1,5 @@
 # Contrastive Hidden States
 
-The goal is to:
-
-1. Parse the contrastive concept pairs.
-2. Build `negative / base / positive` prompts from three local statement classes.
-3. Run a local Hugging Face causal LM with `output_hidden_states=True`.
-4. Save hidden states separately for each prompt variant.
-5. Optionally run text generation for the same prompt set and save responses separately.
-
 ## Current Logic
 
 ### 1. Concept parsing
