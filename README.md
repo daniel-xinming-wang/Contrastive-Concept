@@ -147,3 +147,34 @@ So for each prompt, the saved representation for a layer is:
 - corresponding to the final token hidden state at that layer
 
 This matches the default extraction style used in the upstream `neural_controllers-xrfm` code.
+
+## Cosine And Contrast Analysis
+
+The notebook [cos_sim.ipynb] analyzes the hidden-state arrays. For each concept pair, condition (`positive`, `base`, or `negative`), and layer, each array has shape `num_examples x hidden_dim`; in the current Qwen2.5-3B-Instruct run this is `100 x 2048`.
+
+For each pair/layer, the notebook first averages hidden states within each condition:
+
+```python
+pos_mean = positive.mean(axis=0)
+base_mean = base.mean(axis=0)
+neg_mean = negative.mean(axis=0)
+```
+
+Each mean vector has dimension `hidden_dim`. Cosine similarity is then computed from these mean vectors:
+
+```python
+pos_base = pos_mean - base_mean
+neg_base = neg_mean - base_mean
+cos_similarity = cosine_similarity(pos_base, neg_base)
+```
+
+So the analysis uses `cos(mean(positive) - mean(base), mean(negative) - mean(base))`, not the mean of per-example cosine similarities. Across-pair plots then take the mean or median of these per-pair cosine values at each layer.
+
+The contrast checks use the same mean vectors:
+
+```python
+shared = ((pos_mean + neg_mean) / 2.0) - base_mean
+contrast = pos_mean - neg_mean
+```
+
+The norm and entanglement plots are computed per pair/layer first, then summarized across pairs by layer. Saved CSV outputs are written to `contrast_sanity_outputs/`. Normal layer order uses `layer_index = 1` for the earliest layer and larger values for later layers.
