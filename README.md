@@ -148,7 +148,7 @@ So for each prompt, the saved representation for a layer is:
 
 This matches the default extraction style used in the upstream `neural_controllers-xrfm` code.
 
-## Cosine And Contrast Analysis
+## Cosine Similarity Analysis
 
 The notebook [cos_sim.ipynb] analyzes the hidden-state arrays. For each concept pair, condition (`positive`, `base`, or `negative`), and layer, each array has shape `num_examples x hidden_dim`; in the current Qwen2.5-3B-Instruct run this is `100 x 2048`.
 
