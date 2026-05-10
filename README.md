@@ -4,7 +4,7 @@
 
 ### 1. Concept parsing
 
-The file [contrastive_hidden_states/concepts.py](/Users/xinmingwang/Library/CloudStorage/OneDrive-NationalUniversityofSingapore/Wisc/contrastive_hidden_states/concepts.py) reads `contrastive_concepts.txt`.
+The file [contrastive_hidden_states/concepts.py](/contrastive_hidden_states/concepts.py) reads `contrastive_concepts.txt`.
 
 It treats lines without `vs` as category headers, for example:
 
@@ -33,9 +33,9 @@ The current pipeline no longer reads the upstream `400_general_statements` files
 
 Instead, it reads our own three statement files:
 
-- [class_0.txt](/Users/xinmingwang/Library/CloudStorage/OneDrive-NationalUniversityofSingapore/Wisc/contrastive_hidden_states/data/statements_300/class_0.txt)
-- [class_1.txt](/Users/xinmingwang/Library/CloudStorage/OneDrive-NationalUniversityofSingapore/Wisc/contrastive_hidden_states/data/statements_300/class_1.txt)
-- [class_2.txt](/Users/xinmingwang/Library/CloudStorage/OneDrive-NationalUniversityofSingapore/Wisc/contrastive_hidden_states/data/statements_300/class_2.txt)
+- [class_0.txt](/contrastive_hidden_states/data/statements_300/class_0.txt)
+- [class_1.txt](/contrastive_hidden_states/data/statements_300/class_1.txt)
+- [class_2.txt](/contrastive_hidden_states/data/statements_300/class_2.txt)
 
 These were created by taking the first `300` statements from the original upstream statement pool and splitting them sequentially into three groups of exactly `100`.
 
@@ -47,13 +47,13 @@ The mapping is:
 
 So the three prompt variants do not share the same statement text. Each variant reads from its own class file.
 
-This is the current default runtime behavior in [extract_hidden_states.py](/Users/xinmingwang/Library/CloudStorage/OneDrive-NationalUniversityofSingapore/Wisc/extract_hidden_states.py):
+This is the current default runtime behavior in [extract_hidden_states.py](/extract_hidden_states.py):
 
 - `negative` prompts are built only from `class_0.txt`
 - `base` prompts are built only from `class_1.txt`
 - `positive` prompts are built only from `class_2.txt`
 
-The generation pipeline in [generate_responses.py](/Users/xinmingwang/Library/CloudStorage/OneDrive-NationalUniversityofSingapore/Wisc/generate_responses.py) uses the same mapping:
+The generation pipeline in [generate_responses.py](/generate_responses.py) uses the same mapping:
 
 - `negative` generation prompts use only `class_0.txt`
 - `base` generation prompts use only `class_1.txt`
@@ -61,7 +61,7 @@ The generation pipeline in [generate_responses.py](/Users/xinmingwang/Library/Cl
 
 ### 3. Prompt construction
 
-The file [contrastive_hidden_states/prompts.py](/Users/xinmingwang/Library/CloudStorage/OneDrive-NationalUniversityofSingapore/Wisc/contrastive_hidden_states/prompts.py) builds prompts for each concept pair using three separate statement groups.
+The file [contrastive_hidden_states/prompts.py](/contrastive_hidden_states/prompts.py) builds prompts for each concept pair using three separate statement groups.
 
 The three variants are:
 
@@ -112,7 +112,7 @@ This means the current code is not using a paired-triplet setup where the same s
 
 ### 4. Model loading
 
-The file [contrastive_hidden_states/models.py](/Users/xinmingwang/Library/CloudStorage/OneDrive-NationalUniversityofSingapore/Wisc/contrastive_hidden_states/models.py) loads a local Hugging Face model and tokenizer.
+The file [contrastive_hidden_states/models.py](/contrastive_hidden_states/models.py) loads a local Hugging Face model and tokenizer.
 
 This follows the same overall style as `neural_controllers-xrfm`:
 
@@ -124,7 +124,7 @@ You can pass either a model alias configured in the codebase, a raw Hugging Face
 
 ### 5. Hidden-state extraction
 
-The file [contrastive_hidden_states/hidden_states.py](/Users/xinmingwang/Library/CloudStorage/OneDrive-NationalUniversityofSingapore/Wisc/contrastive_hidden_states/hidden_states.py) does the actual extraction.
+The file [contrastive_hidden_states/hidden_states.py](/contrastive_hidden_states/hidden_states.py) does the actual extraction.
 
 The key behavior is:
 
