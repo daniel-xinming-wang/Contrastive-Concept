@@ -1,23 +1,26 @@
 #!/bin/bash
 set -euo pipefail
 
-# Default parameter values
 model=${1:-"Qwen/Qwen2.5-3B-Instruct"}
 tensor_parallel_size=${2:-1}
 steering_strength=${3:-0.5}
 variants=${4:-"negative base positive"}
 categories=${5:-""}
+steer=${STEER:-0}
 
 max_pairs_per_category=${MAX_PAIRS_PER_CATEGORY:-5}
 max_statements=${MAX_STATEMENTS:-8}
 batch_size=${BATCH_SIZE:-8}
-output_dir=${OUTPUT_DIR:-"outputs/generations"}
+output_dir=${OUTPUT_DIR:-"outputs/generations_vllm"}
 
-torch_dtype=${TORCH_DTYPE:-"bfloat16"}
-max_model_len=${MAX_MODEL_LEN:-""}
 gpu_memory_utilization=${GPU_MEMORY_UTILIZATION:-0.9}
 
-steering_vector_path=${STEERING_VECTOR_PATH:-"vectors/{model_name}/{category_key}/{pair_slug}.npy"}
+steering_direction=${STEERING_DIRECTION:-"base_to_pos"}
+steering_vector_path=${STEERING_VECTOR_PATH:-"contrastive_hidden_states/data/steering_vectors/{model_name}/{category_key}/{pair_slug}/${steering_direction}.npy"}
+
+if [[ "$steer" == "0" || "$steer" == "false" || "$steer" == "False" || "$steer" == "no" || "$steer" == "No" ]]; then
+  steering_vector_path="Empty"
+fi
 
 do_sample=${DO_SAMPLE:-1}
 temperature=${TEMPERATURE:-0.7}
@@ -32,7 +35,6 @@ args=(
   --batch-size "$batch_size"
   --max-statements "$max_statements"
   --tensor-parallel-size "$tensor_parallel_size"
-  --torch-dtype "$torch_dtype"
   --gpu-memory-utilization "$gpu_memory_utilization"
   --steering-vector-path "$steering_vector_path"
   --steering-strength "$steering_strength"
@@ -45,10 +47,6 @@ args=(
 
 if [[ -n "$max_pairs_per_category" ]]; then
   args+=(--max-pairs-per-category "$max_pairs_per_category")
-fi
-
-if [[ -n "$max_model_len" ]]; then
-  args+=(--max-model-len "$max_model_len")
 fi
 
 if [[ -n "$categories" ]]; then
@@ -69,6 +67,7 @@ echo "Running generate_responses.py with following parameters:"
 echo "Model: $model"
 echo "Output dir: $output_dir"
 echo "Tensor parallel size: $tensor_parallel_size"
+echo "Steer: $steer"
 echo "Steering vector path/template: $steering_vector_path"
 echo "Steering strength: $steering_strength"
 echo "Variants: $variants"

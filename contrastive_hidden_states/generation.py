@@ -34,7 +34,7 @@ def generate_responses(
     for start_idx in tqdm(range(0, len(examples), forward_batch_size), desc="Generating responses"):
         batch_examples = examples[start_idx : start_idx + forward_batch_size]
         batch_prompts = [example.prompt for example in batch_examples]
-        outputs = llm.generate(batch_prompts, sampling_params)
+        outputs = llm.generate(batch_prompts, sampling_params, use_tqdm=False)
 
         for example, prompt, output in zip(batch_examples, batch_prompts, outputs):
             generated_text = output.outputs[0].text.strip()

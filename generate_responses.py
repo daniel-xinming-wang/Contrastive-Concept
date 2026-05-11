@@ -84,7 +84,7 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--torch-dtype",
-        default="bfloat16",
+        default="auto",
         help="vLLM dtype: auto, float16, bfloat16, float32, half, or float.",
     )
     parser.add_argument(
