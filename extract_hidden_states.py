@@ -33,8 +33,8 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument(
         "--model",
-        default="llama_3_8b_it",
-        help="Model alias or Hugging Face model id.",
+        default="meta-llama/Meta-Llama-3.1-8B-Instruct",
+        help="Hugging Face model id or local model path.",
     )
     parser.add_argument(
         "--output-dir",
