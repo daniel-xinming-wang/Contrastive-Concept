@@ -5,55 +5,40 @@ import json
 from pathlib import Path
 from typing import Any
 
-import torch
 from tqdm import tqdm
+from vllm import SamplingParams
 
 from .prompts import PromptExample
 
 
 def generate_responses(
     examples: list[PromptExample],
-    model: Any,
-    tokenizer: Any,
+    llm: Any,
     forward_batch_size: int,
     max_new_tokens: int,
     do_sample: bool = False,
     temperature: float = 1.0,
     top_p: float = 1.0,
+    top_k: int = 0,
+    repetition_penalty: float = 1.0,
 ) -> list[dict[str, Any]]:
-    generation_kwargs: dict[str, Any] = {
-        "max_new_tokens": max_new_tokens,
-        "do_sample": do_sample,
-        "pad_token_id": tokenizer.pad_token_id,
-        "eos_token_id": tokenizer.eos_token_id,
-    }
-    if do_sample:
-        generation_kwargs["temperature"] = temperature
-        generation_kwargs["top_p"] = top_p
+    sampling_params = SamplingParams(
+        max_tokens=max_new_tokens,
+        temperature=temperature if do_sample else 0.0,
+        top_p=top_p if do_sample else 1.0,
+        top_k=top_k if do_sample else 0,
+        repetition_penalty=repetition_penalty,
+    )
 
     records: list[dict[str, Any]] = []
     for start_idx in tqdm(range(0, len(examples), forward_batch_size), desc="Generating responses"):
         batch_examples = examples[start_idx : start_idx + forward_batch_size]
         batch_prompts = [example.prompt for example in batch_examples]
-        encoded_inputs = tokenizer(
-            batch_prompts,
-            return_tensors="pt",
-            padding=True,
-            add_special_tokens=False,
-        ).to(model.device)
+        outputs = llm.generate(batch_prompts, sampling_params)
 
-        with torch.no_grad():
-            output_ids = model.generate(
-                input_ids=encoded_inputs["input_ids"],
-                attention_mask=encoded_inputs["attention_mask"],
-                **generation_kwargs,
-            )
-
-        prompt_width = encoded_inputs["input_ids"].shape[1]
-        for example, generated_ids in zip(batch_examples, output_ids):
-            generated_token_ids = generated_ids[prompt_width:]
-            generated_text = tokenizer.decode(generated_token_ids, skip_special_tokens=True).strip()
-            full_text = tokenizer.decode(generated_ids, skip_special_tokens=True).strip()
+        for example, prompt, output in zip(batch_examples, batch_prompts, outputs):
+            generated_text = output.outputs[0].text.strip()
+            full_text = f"{prompt}{generated_text}".strip()
             records.append(
                 {
                     **asdict(example),
