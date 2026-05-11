@@ -6,7 +6,11 @@ from pathlib import Path
 from contrastive_hidden_states.concepts import parse_contrastive_concepts
 from contrastive_hidden_states.generation import generate_responses, save_generation_bundle
 from contrastive_hidden_states.models import load_model_and_tokenizer
-from contrastive_hidden_states.prompts import build_pair_examples, load_statement_groups
+from contrastive_hidden_states.prompts import (
+    VARIANT_ORDER,
+    build_pair_examples,
+    load_statement_groups,
+)
 
 
 DEFAULT_STATEMENT_FILES = [
@@ -66,6 +70,13 @@ def parse_args() -> argparse.Namespace:
         help="Optional limit on how many pairs to process per category.",
     )
     parser.add_argument(
+        "--variants",
+        nargs="+",
+        choices=VARIANT_ORDER,
+        default=list(VARIANT_ORDER),
+        help="Prompt variants to generate: negative, base, positive.",
+    )
+    parser.add_argument(
         "--torch-dtype",
         default=None,
         help="Optional dtype override: float16, bfloat16, or float32.",
@@ -95,7 +106,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--max-new-tokens",
         type=int,
-        default=128,
+        default=1024,
         help="Maximum number of new tokens to generate per prompt.",
     )
     parser.add_argument(
@@ -158,6 +169,7 @@ def main() -> None:
         "resolved_model_name": resolved_name,
         "batch_size": args.batch_size,
         "max_new_tokens": args.max_new_tokens,
+        "variants": args.variants,
         "do_sample": args.do_sample,
         "temperature": args.temperature if args.do_sample else None,
         "top_p": args.top_p if args.do_sample else None,
@@ -175,6 +187,7 @@ def main() -> None:
                 statement_groups=statement_groups,
                 tokenizer=tokenizer,
                 add_generation_prompt=args.add_generation_prompt,
+                variants=args.variants,
             )
             records = generate_responses(
                 examples=examples,

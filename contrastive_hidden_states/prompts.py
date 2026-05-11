@@ -13,6 +13,8 @@ DEFAULT_BASE_TEMPLATE = (
     "Response:"
 )
 
+VARIANT_ORDER = ("negative", "base", "positive")
+
 CATEGORY_INSTRUCTIONS = {
     "linguistic_style": "Adopt the following linguistic style: {concept}.",
     "ideology": "Adopt the following ideological stance: {concept}.",
@@ -124,9 +126,20 @@ def build_pair_examples(
     tokenizer: Any,
     add_generation_prompt: bool = False,
     base_template: str = DEFAULT_BASE_TEMPLATE,
+    variants: tuple[str, ...] | list[str] | None = None,
 ) -> list[PromptExample]:
+    selected_variants = tuple(variants) if variants is not None else VARIANT_ORDER
+    unknown_variants = sorted(set(selected_variants) - set(VARIANT_ORDER))
+    if unknown_variants:
+        raise ValueError(
+            "Unknown variants: "
+            + ", ".join(unknown_variants)
+            + ". Expected one or more of: "
+            + ", ".join(VARIANT_ORDER)
+        )
+
     examples: list[PromptExample] = []
-    for variant in ("negative", "base", "positive"):
+    for variant in selected_variants:
         statements = statement_groups[variant]
         for idx, (source_name, statement) in enumerate(statements):
             triplet = build_prompt_triplet(

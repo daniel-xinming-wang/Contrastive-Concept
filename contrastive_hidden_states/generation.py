@@ -73,9 +73,9 @@ def save_generation_bundle(
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    variant_to_records = {"negative": [], "base": [], "positive": []}
+    variant_to_records: dict[str, list[dict[str, Any]]] = {}
     for record in records:
-        variant_to_records[record["variant"]].append(record)
+        variant_to_records.setdefault(record["variant"], []).append(record)
 
     saved_files: dict[str, list[str]] = {}
     for variant, variant_records in variant_to_records.items():
