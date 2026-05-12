@@ -51,4 +51,4 @@ def load_model_and_tokenizer(
 
 def default_hidden_layers(model: Any) -> list[int]:
     num_layers = model.config.num_hidden_layers
-    return list(range(-1, -num_layers, -1))
+    return list(range(num_layers))

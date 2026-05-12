@@ -5,6 +5,7 @@ import gc
 import os
 from pathlib import Path
 
+import numpy as np
 import torch
 from transformers import AutoConfig, AutoTokenizer
 from vllm import LLM, ModelRegistry
@@ -184,6 +185,7 @@ def configure_steering(
     steering_vector_path: str,
     steering_strength: float,
     num_hidden_layers: int,
+    hidden_size: int,
 ) -> bool:
     if steering_vector_path == "Empty":
         os.environ.pop("steering_vector_path", None)
@@ -191,6 +193,20 @@ def configure_steering(
         return False
     if not Path(steering_vector_path).exists():
         raise FileNotFoundError(f"Steering vector file not found: {steering_vector_path}")
+    steering_shape = np.load(steering_vector_path, mmap_mode="r").shape
+    if len(steering_shape) != 2 or steering_shape[0] != num_hidden_layers:
+        raise ValueError(
+            "Steering vector shape does not match the model layers: "
+            f"{steering_vector_path} has shape {steering_shape}, "
+            f"but the model has {num_hidden_layers} hidden layers. "
+            "Regenerate hidden states and steering vectors with all decoder layers."
+        )
+    if steering_shape[1] != hidden_size:
+        raise ValueError(
+            "Steering vector hidden dimension does not match the model: "
+            f"{steering_vector_path} has hidden dim {steering_shape[1]}, "
+            f"but the model hidden size is {hidden_size}."
+        )
 
     ModelRegistry.register_model("Qwen2ForCausalLM", SteerQwen2ForCausalLM)
 
@@ -204,13 +220,13 @@ def configure_steering(
     return True
 
 
-def resolve_num_hidden_layers(resolved_name: str, trust_remote_code: bool) -> int:
+def resolve_model_dimensions(resolved_name: str, trust_remote_code: bool) -> tuple[int, int]:
     config = AutoConfig.from_pretrained(
         resolved_name,
         trust_remote_code=trust_remote_code,
     )
     text_config = config.get_text_config() if hasattr(config, "get_text_config") else config
-    return text_config.num_hidden_layers
+    return text_config.num_hidden_layers, text_config.hidden_size
 
 
 def load_tokenizer(resolved_name: str, trust_remote_code: bool) -> object:
@@ -290,7 +306,7 @@ def main() -> None:
         resolved_name=resolved_name,
         trust_remote_code=args.trust_remote_code,
     )
-    num_hidden_layers = resolve_num_hidden_layers(
+    num_hidden_layers, hidden_size = resolve_model_dimensions(
         resolved_name=resolved_name,
         trust_remote_code=args.trust_remote_code,
     )
@@ -303,6 +319,7 @@ def main() -> None:
             steering_vector_path=args.steering_vector_path,
             steering_strength=args.steering_strength,
             num_hidden_layers=num_hidden_layers,
+            hidden_size=hidden_size,
         )
         llm = create_vllm(args, resolved_name)
 
@@ -360,6 +377,7 @@ def main() -> None:
                     steering_vector_path=pair_steering_vector_path,
                     steering_strength=args.steering_strength,
                     num_hidden_layers=num_hidden_layers,
+                    hidden_size=hidden_size,
                 )
                 llm = create_vllm(args, resolved_name)
 

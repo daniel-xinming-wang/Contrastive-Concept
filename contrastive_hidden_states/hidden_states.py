@@ -48,10 +48,7 @@ def get_hidden_states(
             num_layers = len(model.model.layers)
 
             hidden_states_all_layers: list[torch.Tensor] = []
-            for layer_idx, hidden_state in zip(
-                range(-1, -num_layers, -1),
-                reversed(out_hidden_states),
-            ):
+            for layer_idx, hidden_state in enumerate(out_hidden_states[1 : num_layers + 1]):
                 if not use_concat and layer_idx not in all_hidden_states:
                     continue
                 if use_concat:
