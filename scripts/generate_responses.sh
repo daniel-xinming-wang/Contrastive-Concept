@@ -4,25 +4,27 @@ set -euo pipefail
 model=${1:-"Qwen/Qwen2.5-3B-Instruct"}
 tensor_parallel_size=${2:-1}
 steering_strength=${3:-0.5}
-variants=${4:-"negative base positive"}
-categories=${5:-""}
-steer=${STEER:-0}
-
-max_pairs_per_category=${MAX_PAIRS_PER_CATEGORY:-5}
-max_statements=${MAX_STATEMENTS:-8}
-batch_size=${BATCH_SIZE:-8}
-output_dir=${OUTPUT_DIR:-"outputs/generations_vllm"}
-
-gpu_memory_utilization=${GPU_MEMORY_UTILIZATION:-0.9}
+#variants=${4:-"negative base positive"}
+variants=${4:-"base"}
+categories=${5:-"ideology"}
+steer=${STEER:-1}
 
 steering_direction=${STEERING_DIRECTION:-"base_to_pos"}
 steering_vector_path=${STEERING_VECTOR_PATH:-"contrastive_hidden_states/data/steering_vectors/{model_name}/{category_key}/{pair_slug}/${steering_direction}.npy"}
+steering_layers=${STEERING_LAYERS:-"all"}
+
+max_pairs_per_category=${MAX_PAIRS_PER_CATEGORY:-20}
+max_statements=${MAX_STATEMENTS:-100}
+batch_size=${BATCH_SIZE:-8}
+output_dir=${OUTPUT_DIR:-"outputs/generations_vllm_${steering_strength}_${steering_direction}_layers_${steering_layers}_test_dosample0_ideology"}
+
+gpu_memory_utilization=${GPU_MEMORY_UTILIZATION:-0.9}
 
 if [[ "$steer" == "0" || "$steer" == "false" || "$steer" == "False" || "$steer" == "no" || "$steer" == "No" ]]; then
   steering_vector_path="Empty"
 fi
 
-do_sample=${DO_SAMPLE:-1}
+do_sample=${DO_SAMPLE:-0}
 temperature=${TEMPERATURE:-0.7}
 top_p=${TOP_P:-0.8}
 top_k=${TOP_K:-20}
@@ -38,6 +40,7 @@ args=(
   --gpu-memory-utilization "$gpu_memory_utilization"
   --steering-vector-path "$steering_vector_path"
   --steering-strength "$steering_strength"
+  --steering-layers "$steering_layers"
   --max-new-tokens "$max_new_tokens"
   --temperature "$temperature"
   --top-p "$top_p"
@@ -70,6 +73,7 @@ echo "Tensor parallel size: $tensor_parallel_size"
 echo "Steer: $steer"
 echo "Steering vector path/template: $steering_vector_path"
 echo "Steering strength: $steering_strength"
+echo "Steering layers: $steering_layers"
 echo "Variants: $variants"
 echo "Categories: ${categories:-all}"
 

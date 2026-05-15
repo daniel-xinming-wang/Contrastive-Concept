@@ -124,7 +124,15 @@ def parse_args() -> argparse.Namespace:
         "--steering-strength",
         type=float,
         default=0.0,
-        help="Steering strength applied to every layer when steering is enabled.",
+        help="Steering strength applied to selected layers when steering is enabled.",
+    )
+    parser.add_argument(
+        "--steering-layers",
+        default="all",
+        help=(
+            "Layers to steer. Use all, a half-open range like 6:36, "
+            "or comma-separated indices like 18,24,30,35."
+        ),
     )
     parser.add_argument(
         "--trust-remote-code",
@@ -186,6 +194,7 @@ def configure_steering(
     steering_strength: float,
     num_hidden_layers: int,
     hidden_size: int,
+    steering_layers: str,
 ) -> bool:
     if steering_vector_path == "Empty":
         os.environ.pop("steering_vector_path", None)
@@ -210,14 +219,44 @@ def configure_steering(
 
     ModelRegistry.register_model("Qwen2ForCausalLM", SteerQwen2ForCausalLM)
 
-    steering_strength_list = [steering_strength] * num_hidden_layers
+    selected_layers = parse_steering_layers(steering_layers, num_hidden_layers)
+    steering_strength_list = [
+        steering_strength if layer_idx in selected_layers else 0.0
+        for layer_idx in range(num_hidden_layers)
+    ]
 
     os.environ["steering_vector_path"] = steering_vector_path
     os.environ["steering_strength_list"] = ",".join(map(str, steering_strength_list))
     print("Finish registering model SteerQwen2ForCausalLM")
     print(f"Set steering_vector_path to: {steering_vector_path}")
+    print(f"Set steering_layers to: {sorted(selected_layers)}")
     print(f"Set steering_strength_list to: {steering_strength_list}")
     return True
+
+
+def parse_steering_layers(spec: str, num_hidden_layers: int) -> set[int]:
+    spec = spec.strip().lower()
+    if spec in {"", "all"}:
+        return set(range(num_hidden_layers))
+
+    if ":" in spec:
+        parts = spec.split(":")
+        if len(parts) != 2:
+            raise ValueError(f"Invalid steering layer range: {spec}")
+        start = int(parts[0]) if parts[0] else 0
+        end = int(parts[1]) if parts[1] else num_hidden_layers
+        layers = set(range(start, end))
+    else:
+        layers = {int(part.strip()) for part in spec.split(",") if part.strip()}
+
+    invalid = sorted(layer for layer in layers if layer < 0 or layer >= num_hidden_layers)
+    if invalid:
+        raise ValueError(
+            f"Invalid steering layer indices {invalid}; expected 0 to {num_hidden_layers - 1}."
+        )
+    if not layers:
+        raise ValueError("No steering layers selected.")
+    return layers
 
 
 def resolve_model_dimensions(resolved_name: str, trust_remote_code: bool) -> tuple[int, int]:
@@ -320,6 +359,7 @@ def main() -> None:
             steering_strength=args.steering_strength,
             num_hidden_layers=num_hidden_layers,
             hidden_size=hidden_size,
+            steering_layers=args.steering_layers,
         )
         llm = create_vllm(args, resolved_name)
 
@@ -348,6 +388,7 @@ def main() -> None:
         "steering_vector_path_template": args.steering_vector_path if steering_enabled else None,
         "pair_steering": pair_steering,
         "steering_strength": args.steering_strength if steering_enabled else None,
+        "steering_layers": args.steering_layers if steering_enabled else None,
         "batch_size": args.batch_size,
         "max_new_tokens": args.max_new_tokens,
         "variants": args.variants,
@@ -378,6 +419,7 @@ def main() -> None:
                     steering_strength=args.steering_strength,
                     num_hidden_layers=num_hidden_layers,
                     hidden_size=hidden_size,
+                    steering_layers=args.steering_layers,
                 )
                 llm = create_vllm(args, resolved_name)
 
