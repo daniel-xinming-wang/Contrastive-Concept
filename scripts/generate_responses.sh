@@ -25,6 +25,7 @@ if [[ "$steer" == "0" || "$steer" == "false" || "$steer" == "False" || "$steer" 
 fi
 
 do_sample=${DO_SAMPLE:-0}
+strip_default_system_prompt=${STRIP_DEFAULT_SYSTEM_PROMPT:-0}
 temperature=${TEMPERATURE:-0.7}
 top_p=${TOP_P:-0.8}
 top_k=${TOP_K:-20}
@@ -66,6 +67,10 @@ if [[ "$do_sample" == "1" || "$do_sample" == "true" || "$do_sample" == "True" ]]
   args+=(--do-sample)
 fi
 
+if [[ "$strip_default_system_prompt" == "1" || "$strip_default_system_prompt" == "true" || "$strip_default_system_prompt" == "True" ]]; then
+  args+=(--strip-default-system-prompt)
+fi
+
 echo "Running generate_responses.py with following parameters:"
 echo "Model: $model"
 echo "Output dir: $output_dir"
@@ -74,6 +79,7 @@ echo "Steer: $steer"
 echo "Steering vector path/template: $steering_vector_path"
 echo "Steering strength: $steering_strength"
 echo "Steering layers: $steering_layers"
+echo "Strip default system prompt: $strip_default_system_prompt"
 echo "Variants: $variants"
 echo "Categories: ${categories:-all}"
 

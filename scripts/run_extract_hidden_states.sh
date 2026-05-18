@@ -8,6 +8,7 @@ MAX_STATEMENTS="${MAX_STATEMENTS:-100}"
 BATCH_SIZE="${BATCH_SIZE:-2}"
 SAVE_FORMAT="${SAVE_FORMAT:-npy}"
 OUTPUT_DIR="${OUTPUT_DIR:-outputs/hidden_states}"
+STRIP_DEFAULT_SYSTEM_PROMPT="${STRIP_DEFAULT_SYSTEM_PROMPT:-0}"
 
 ARGS=(
   --model "${MODEL}"
@@ -16,6 +17,10 @@ ARGS=(
   --save-format "${SAVE_FORMAT}"
   --output-dir "${OUTPUT_DIR}"
 )
+
+if [[ "${STRIP_DEFAULT_SYSTEM_PROMPT}" == "1" || "${STRIP_DEFAULT_SYSTEM_PROMPT}" == "true" || "${STRIP_DEFAULT_SYSTEM_PROMPT}" == "True" ]]; then
+  ARGS+=(--strip-default-system-prompt)
+fi
 
 if [[ -n "${CATEGORIES}" ]]; then
   # Space-separated category keys, e.g. "linguistic_style ideology"

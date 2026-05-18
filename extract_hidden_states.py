@@ -86,6 +86,11 @@ def parse_args() -> argparse.Namespace:
         help="Whether to include the assistant generation tag in chat formatting.",
     )
     parser.add_argument(
+        "--strip-default-system-prompt",
+        action="store_true",
+        help="Use a Qwen user/assistant chat wrapper without the tokenizer's default system prompt.",
+    )
+    parser.add_argument(
         "--save-format",
         choices=("npy", "pt"),
         default="npy",
@@ -131,6 +136,7 @@ def main() -> None:
         "batch_size": args.batch_size,
         "hidden_layers": hidden_layers,
         "add_generation_prompt": args.add_generation_prompt,
+        "strip_default_system_prompt": args.strip_default_system_prompt,
         "save_format": args.save_format,
     }
 
@@ -145,6 +151,7 @@ def main() -> None:
                 statement_groups=statement_groups,
                 tokenizer=tokenizer,
                 add_generation_prompt=args.add_generation_prompt,
+                strip_default_system_prompt=args.strip_default_system_prompt,
             )
             prompts = [example.prompt for example in examples]
             hidden_states = get_hidden_states(

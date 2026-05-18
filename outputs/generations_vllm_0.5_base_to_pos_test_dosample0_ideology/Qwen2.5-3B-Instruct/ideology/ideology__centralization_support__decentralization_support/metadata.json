@@ -1,0 +1,52 @@
+{
+  "run_config": {
+    "concepts_file": "/workspace/Contrastive-Concept/contrastive_concepts.txt",
+    "statement_files": [
+      "/workspace/Contrastive-Concept/contrastive_hidden_states/data/statements_300/class_0.txt",
+      "/workspace/Contrastive-Concept/contrastive_hidden_states/data/statements_300/class_1.txt",
+      "/workspace/Contrastive-Concept/contrastive_hidden_states/data/statements_300/class_2.txt"
+    ],
+    "statement_mapping": {
+      "negative": "class_0.txt",
+      "base": "class_1.txt",
+      "positive": "class_2.txt"
+    },
+    "num_statements_per_variant": {
+      "negative": 100,
+      "base": 100,
+      "positive": 100
+    },
+    "model_arg": "Qwen/Qwen2.5-3B-Instruct",
+    "resolved_model_name": "Qwen/Qwen2.5-3B-Instruct",
+    "backend": "vllm",
+    "tensor_parallel_size": 1,
+    "dtype": "auto",
+    "max_model_len": null,
+    "gpu_memory_utilization": 0.9,
+    "steering_enabled": true,
+    "steering_vector_path_template": "contrastive_hidden_states/data/steering_vectors/{model_name}/{category_key}/{pair_slug}/base_to_pos.npy",
+    "pair_steering": true,
+    "steering_strength": 0.5,
+    "batch_size": 8,
+    "max_new_tokens": 1024,
+    "variants": [
+      "base"
+    ],
+    "do_sample": false,
+    "temperature": null,
+    "top_p": null,
+    "top_k": null,
+    "repetition_penalty": 1.05,
+    "add_generation_prompt": true,
+    "steering_vector_path": "contrastive_hidden_states/data/steering_vectors/Qwen2.5-3B-Instruct/ideology/ideology__centralization_support__decentralization_support/base_to_pos.npy"
+  },
+  "num_examples": 100,
+  "variant_counts": {
+    "base": 100
+  },
+  "saved_files": {
+    "base": [
+      "generations.jsonl"
+    ]
+  }
+}

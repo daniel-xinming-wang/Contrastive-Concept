@@ -75,9 +75,20 @@ def load_statement_groups(
     return grouped
 
 
-def format_prompt(tokenizer: Any, prompt_text: str, add_generation_prompt: bool = False) -> str:
+def format_prompt(
+    tokenizer: Any,
+    prompt_text: str,
+    add_generation_prompt: bool = False,
+    strip_default_system_prompt: bool = False,
+) -> str:
     if tokenizer is None:
         return prompt_text
+
+    if strip_default_system_prompt:
+        formatted = f"<|im_start|>user\n{prompt_text}<|im_end|>"
+        if add_generation_prompt:
+            formatted += "\n<|im_start|>assistant\n"
+        return formatted.strip()
 
     if hasattr(tokenizer, "apply_chat_template"):
         chat = [{"role": "user", "content": prompt_text}]
@@ -96,6 +107,7 @@ def build_prompt_triplet(
     statement: str,
     tokenizer: Any,
     add_generation_prompt: bool = False,
+    strip_default_system_prompt: bool = False,
     base_template: str = DEFAULT_BASE_TEMPLATE,
 ) -> dict[str, str]:
     base_prompt = base_template.format(statement=statement)
@@ -115,6 +127,7 @@ def build_prompt_triplet(
             tokenizer=tokenizer,
             prompt_text=prompt,
             add_generation_prompt=add_generation_prompt,
+            strip_default_system_prompt=strip_default_system_prompt,
         )
         for variant, prompt in prompts.items()
     }
@@ -125,6 +138,7 @@ def build_pair_examples(
     statement_groups: dict[str, list[tuple[str, str]]],
     tokenizer: Any,
     add_generation_prompt: bool = False,
+    strip_default_system_prompt: bool = False,
     base_template: str = DEFAULT_BASE_TEMPLATE,
     variants: tuple[str, ...] | list[str] | None = None,
 ) -> list[PromptExample]:
@@ -147,6 +161,7 @@ def build_pair_examples(
                 statement=statement,
                 tokenizer=tokenizer,
                 add_generation_prompt=add_generation_prompt,
+                strip_default_system_prompt=strip_default_system_prompt,
                 base_template=base_template,
             )
             examples.append(

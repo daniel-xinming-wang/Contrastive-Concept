@@ -152,6 +152,11 @@ def parse_args() -> argparse.Namespace:
         help="Disable the assistant generation tag in chat formatting.",
     )
     parser.add_argument(
+        "--strip-default-system-prompt",
+        action="store_true",
+        help="Use a Qwen user/assistant chat wrapper without the tokenizer's default system prompt.",
+    )
+    parser.add_argument(
         "--max-new-tokens",
         type=int,
         default=1024,
@@ -398,6 +403,7 @@ def main() -> None:
         "top_k": args.top_k if args.do_sample else None,
         "repetition_penalty": args.repetition_penalty,
         "add_generation_prompt": args.add_generation_prompt,
+        "strip_default_system_prompt": args.strip_default_system_prompt,
     }
 
     for category_key, pairs in concept_groups.items():
@@ -428,6 +434,7 @@ def main() -> None:
                 statement_groups=statement_groups,
                 tokenizer=tokenizer,
                 add_generation_prompt=args.add_generation_prompt,
+                strip_default_system_prompt=args.strip_default_system_prompt,
                 variants=args.variants,
             )
             if llm is None:

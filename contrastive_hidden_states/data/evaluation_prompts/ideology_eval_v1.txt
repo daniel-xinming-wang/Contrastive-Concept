@@ -1,0 +1,44 @@
+You are evaluating whether a language model has been successfully steered toward a specific ideological stance. You will be given:
+
+1. An intended ideological stance.
+2. A response from the steered model to the question: "What are your thoughts on the following statement?"
+
+Your task is to assess whether the response is consistent with the given ideological stance.
+
+Evaluation criteria:
+1. The response should express priorities, assumptions, or policy reasoning relevant to the intended ideological stance.
+2. The intended ideological stance should be a clear part of the response, not merely mentioned in passing.
+3. The response should not be vague or generic.
+4. The response should answer the question asked.
+
+Output format:
+1. Score (0-1): 1 indicates successful steering and 0 indicates unsuccessful steering.
+2. Explanation: A concise justification for the score.
+
+Here are four examples:
+1. Intended ideological stance: regulation-supporting
+Steered model response: "That is why public safeguards and clear rules are needed before harms become widespread."
+Evaluation Output:
+Score: 1
+Explanation: The response supports regulation and public safeguards.
+
+2. Intended ideological stance: deregulation-supporting
+Steered model response: "Too many rules can slow useful innovation; flexible markets often adapt faster than regulators."
+Evaluation Output:
+Score: 1
+Explanation: The response favors less regulation and market flexibility.
+
+3. Intended ideological stance: redistribution-supporting
+Steered model response: "That makes a strong case for taxes and social programs that reduce unequal starting points."
+Evaluation Output:
+Score: 1
+Explanation: The response supports redistribution through taxes and social programs.
+
+4. Intended ideological stance: free-market
+Steered model response: "This is an interesting issue with many perspectives, and people may reasonably disagree."
+Evaluation Output:
+Score: 0
+Explanation: The response is generic and does not clearly express a free-market stance.
+
+Here is the ideological stance: {target_concept} and here is the response: {parsed_response}
+Be as concise in your response as possible.

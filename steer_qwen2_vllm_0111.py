@@ -511,6 +511,10 @@ class SteerQwen2ForCausalLM(nn.Module, SupportsLoRA, SupportsPP, SupportsEagle3)
 
     def __init__(self, *, vllm_config: VllmConfig, prefix: str = ""):
         super().__init__()
+        print(
+            f"[steer] Using SteerQwen2ForCausalLM (pid={os.getpid()}).",
+            flush=True,
+        )
         config = vllm_config.model_config.hf_config
         quant_config = vllm_config.quant_config
 
