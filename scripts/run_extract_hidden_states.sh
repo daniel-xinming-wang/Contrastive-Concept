@@ -9,6 +9,7 @@ BATCH_SIZE="${BATCH_SIZE:-2}"
 SAVE_FORMAT="${SAVE_FORMAT:-npy}"
 OUTPUT_DIR="${OUTPUT_DIR:-outputs/hidden_states}"
 STRIP_DEFAULT_SYSTEM_PROMPT="${STRIP_DEFAULT_SYSTEM_PROMPT:-0}"
+VARIANTS="${VARIANTS:-}"
 
 ARGS=(
   --model "${MODEL}"
@@ -30,6 +31,12 @@ fi
 
 if [[ -n "${MAX_PAIRS_PER_CATEGORY}" ]]; then
   ARGS+=(--max-pairs-per-category "${MAX_PAIRS_PER_CATEGORY}")
+fi
+
+if [[ -n "${VARIANTS}" ]]; then
+  # Space-separated prompt variants, e.g. "negpos posneg"
+  read -r -a VARIANT_ARRAY <<< "${VARIANTS}"
+  ARGS+=(--variants "${VARIANT_ARRAY[@]}")
 fi
 
 python extract_hidden_states.py "${ARGS[@]}"

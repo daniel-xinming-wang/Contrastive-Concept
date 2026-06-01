@@ -13,6 +13,19 @@ from tqdm import tqdm
 from .prompts import PromptExample
 
 
+def decoder_layers(model: Any) -> Any:
+    if hasattr(model, "model") and hasattr(model.model, "layers"):
+        return model.model.layers
+    if hasattr(model, "language_model") and hasattr(model.language_model, "layers"):
+        return model.language_model.layers
+    if hasattr(model, "transformer") and hasattr(model.transformer, "h"):
+        return model.transformer.h
+    raise AttributeError(
+        "Could not find decoder layers on model. Expected one of "
+        "model.model.layers, model.language_model.layers, or model.transformer.h."
+    )
+
+
 def get_hidden_states(
     prompts: list[str],
     model: Any,
@@ -45,7 +58,7 @@ def get_hidden_states(
                 output_hidden_states=True,
             )
             out_hidden_states = outputs.hidden_states
-            num_layers = len(model.model.layers)
+            num_layers = len(decoder_layers(model))
 
             hidden_states_all_layers: list[torch.Tensor] = []
             for layer_idx, hidden_state in enumerate(out_hidden_states[1 : num_layers + 1]):
@@ -79,8 +92,9 @@ def save_pair_bundle(
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
-    variant_to_indices = {"negative": [], "base": [], "positive": []}
+    variant_to_indices: dict[str, list[int]] = {}
     for idx, example in enumerate(examples):
+        variant_to_indices.setdefault(example.variant, [])
         variant_to_indices[example.variant].append(idx)
 
     saved_files: dict[str, list[str]] = {}

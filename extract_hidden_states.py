@@ -6,7 +6,12 @@ from pathlib import Path
 from contrastive_hidden_states.concepts import parse_contrastive_concepts
 from contrastive_hidden_states.hidden_states import get_hidden_states, save_pair_bundle
 from contrastive_hidden_states.models import default_hidden_layers, load_model_and_tokenizer
-from contrastive_hidden_states.prompts import build_pair_examples, load_statement_groups
+from contrastive_hidden_states.prompts import (
+    VALID_VARIANTS,
+    VARIANT_ORDER,
+    build_pair_examples,
+    load_statement_groups,
+)
 
 
 DEFAULT_STATEMENT_FILES = [
@@ -64,6 +69,13 @@ def parse_args() -> argparse.Namespace:
         type=int,
         default=None,
         help="Optional limit on how many pairs to process per category.",
+    )
+    parser.add_argument(
+        "--variants",
+        nargs="+",
+        choices=VALID_VARIANTS,
+        default=list(VARIANT_ORDER),
+        help="Prompt variants to extract: negative, base, positive, negpos, posneg.",
     )
     parser.add_argument(
         "--torch-dtype",
@@ -138,6 +150,7 @@ def main() -> None:
         "add_generation_prompt": args.add_generation_prompt,
         "strip_default_system_prompt": args.strip_default_system_prompt,
         "save_format": args.save_format,
+        "variants": args.variants,
     }
 
     for category_key, pairs in concept_groups.items():
@@ -152,6 +165,7 @@ def main() -> None:
                 tokenizer=tokenizer,
                 add_generation_prompt=args.add_generation_prompt,
                 strip_default_system_prompt=args.strip_default_system_prompt,
+                variants=args.variants,
             )
             prompts = [example.prompt for example in examples]
             hidden_states = get_hidden_states(

@@ -14,6 +14,8 @@ DEFAULT_BASE_TEMPLATE = (
 )
 
 VARIANT_ORDER = ("negative", "base", "positive")
+COMBINED_VARIANT_ORDER = ("negpos", "posneg")
+VALID_VARIANTS = VARIANT_ORDER + COMBINED_VARIANT_ORDER
 
 CATEGORY_INSTRUCTIONS = {
     "linguistic_style": "Adopt the following linguistic style: {concept}.",
@@ -120,6 +122,14 @@ def build_prompt_triplet(
         "base": base_prompt,
         "positive": f"{instruction_template.format(concept=pair.positive)}\n\n{base_prompt}",
         "negative": f"{instruction_template.format(concept=pair.negative)}\n\n{base_prompt}",
+        "negpos": (
+            f"{instruction_template.format(concept=f'{pair.negative} and {pair.positive}')}"
+            f"\n\n{base_prompt}"
+        ),
+        "posneg": (
+            f"{instruction_template.format(concept=f'{pair.positive} and {pair.negative}')}"
+            f"\n\n{base_prompt}"
+        ),
     }
 
     return {
@@ -143,18 +153,19 @@ def build_pair_examples(
     variants: tuple[str, ...] | list[str] | None = None,
 ) -> list[PromptExample]:
     selected_variants = tuple(variants) if variants is not None else VARIANT_ORDER
-    unknown_variants = sorted(set(selected_variants) - set(VARIANT_ORDER))
+    unknown_variants = sorted(set(selected_variants) - set(VALID_VARIANTS))
     if unknown_variants:
         raise ValueError(
             "Unknown variants: "
             + ", ".join(unknown_variants)
             + ". Expected one or more of: "
-            + ", ".join(VARIANT_ORDER)
+            + ", ".join(VALID_VARIANTS)
         )
 
     examples: list[PromptExample] = []
     for variant in selected_variants:
-        statements = statement_groups[variant]
+        statement_variant = "base" if variant in COMBINED_VARIANT_ORDER else variant
+        statements = statement_groups[statement_variant]
         for idx, (source_name, statement) in enumerate(statements):
             triplet = build_prompt_triplet(
                 pair=pair,

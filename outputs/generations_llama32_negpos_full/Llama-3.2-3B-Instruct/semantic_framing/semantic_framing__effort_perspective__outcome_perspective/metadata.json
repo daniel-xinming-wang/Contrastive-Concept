@@ -1,0 +1,43 @@
+{
+  "run_config": {
+    "concepts_file": "/content/drive/MyDrive/Wisc/contrastive_concepts.txt",
+    "statement_files": [
+      "/content/drive/MyDrive/Wisc/contrastive_hidden_states/data/statements_300/class_0.txt",
+      "/content/drive/MyDrive/Wisc/contrastive_hidden_states/data/statements_300/class_1.txt",
+      "/content/drive/MyDrive/Wisc/contrastive_hidden_states/data/statements_300/class_2.txt"
+    ],
+    "statement_mapping": {
+      "negative": "class_0.txt",
+      "base": "class_1.txt",
+      "positive": "class_2.txt"
+    },
+    "model_arg": "meta-llama/Llama-3.2-3B-Instruct",
+    "resolved_model_name": "meta-llama/Llama-3.2-3B-Instruct",
+    "backend": "vllm",
+    "steering_enabled": false,
+    "tensor_parallel_size": 1,
+    "dtype": "bfloat16",
+    "max_model_len": null,
+    "gpu_memory_utilization": 0.9,
+    "batch_size": 100,
+    "max_new_tokens": 1024,
+    "variants": [
+      "negpos"
+    ],
+    "do_sample": true,
+    "temperature": 0.6,
+    "top_p": 0.9,
+    "top_k": 20,
+    "repetition_penalty": 1.05,
+    "add_generation_prompt": true
+  },
+  "num_examples": 100,
+  "variant_counts": {
+    "negpos": 100
+  },
+  "saved_files": {
+    "negpos": [
+      "generations.jsonl"
+    ]
+  }
+}

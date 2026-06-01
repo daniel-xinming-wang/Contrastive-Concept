@@ -1,0 +1,83 @@
+You are evaluating whether a language model response successfully addresses two requested concepts.
+
+The model was instructed to adopt two concepts in one prompt. You will be given:
+
+1. The first requested concept.
+2. The second requested concept.
+3. The category of the concepts.
+4. The original statement the model responded to.
+5. The generated response.
+
+Your task is to decide whether the generated response substantively addresses BOTH requested concepts as two distinct angles, viewpoints, stances, framings, or styles.
+
+Label Success: 1 only if all of the following are true:
+1. The response clearly addresses the first concept.
+2. The response clearly addresses the second concept.
+3. The two concepts are treated as distinct perspectives or modes, not collapsed into one generic answer.
+4. The response uses the concepts to discuss the original statement.
+5. A neutral synthesis, comparison, balanced conclusion, or explicit acknowledgement of both sides counts as success, as long as both concepts were substantively addressed first.
+
+Label Success: 0 if any of the following are true:
+1. The response only adopts or discusses one of the two concepts.
+2. The response merely has the surface style of one concept, such as being verbose, concise, formal, informal, technical, or casual, without addressing both concepts as separate angles.
+3. The response mentions one or both concept names only in passing but does not use them meaningfully.
+4. The response is generic, off-topic, empty, or fails to answer the statement.
+5. The response blends the two concepts into a single undifferentiated answer, making it unclear that both concepts were considered.
+
+Important guidance:
+- Do not require the exact concept words to appear. Synonyms and clearly equivalent reasoning count.
+- Explicit structures like "From a [first concept] perspective..." and "From a [second concept] perspective..." usually count as success if the content under each heading is meaningful.
+- For linguistic-style concepts, do NOT give success merely because the response is written in one style. It must address both requested styles/modes as distinct angles or explicitly contrast/synthesize them.
+- Be strict: when in doubt, choose Success: 0.
+
+Examples:
+
+First concept: ethical perspective
+Second concept: economic perspective
+Category: semantic_framing
+Statement: Your future self is watching your choices today.
+Generated response: "From an ethical perspective, the statement is about responsibility to one's future self. From an economic perspective, it highlights opportunity cost and long-term investment in well-being. A balanced view is that choices should respect both moral responsibility and practical consequences."
+Evaluation Output:
+Success: 1
+Explanation: The response separately addresses ethical and economic perspectives and then synthesizes them.
+
+First concept: verbose style
+Second concept: concise style
+Category: linguistic_style
+Statement: You do not have to attend every argument you are invited to.
+Generated response: "This statement means you should protect your peace, choose your battles carefully, and avoid wasting emotional energy on conflicts that do not deserve your attention. In many situations, refusing to engage is a sign of maturity rather than weakness."
+Evaluation Output:
+Success: 0
+Explanation: The response is just a normal expanded answer and does not address verbose and concise styles as two distinct modes.
+
+First concept: regulation supporting
+Second concept: deregulation supporting
+Category: ideology
+Statement: New technology often arrives before society knows how to use it wisely.
+Generated response: "A regulation-supporting view would emphasize guardrails, public safety, and accountability before harms spread. A deregulation-supporting view would warn that premature rules can slow innovation and adaptation. A neutral answer would weigh safety risks against the cost of limiting experimentation."
+Evaluation Output:
+Success: 1
+Explanation: The response explicitly presents both ideological stances and gives a balanced synthesis.
+
+First concept: formal register
+Second concept: informal register
+Category: linguistic_style
+Statement: Rest is part of the work.
+Generated response: "Rest is an essential component of sustainable productivity because it restores attention, improves judgment, and prevents burnout."
+Evaluation Output:
+Success: 0
+Explanation: The response uses one register-like style but does not address both formal and informal registers as distinct modes.
+
+Now evaluate the following case.
+
+First concept: {first_concept}
+Second concept: {second_concept}
+Category: {category_key}
+Statement: {statement}
+Generated response: {generated_text}
+
+Output format:
+Success: 0 or 1
+Explanation: one concise sentence
+
+The first line of your response must be exactly "Success: 0" or "Success: 1". Do not omit the Success line.

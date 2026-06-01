@@ -13,6 +13,7 @@ from vllm import LLM, ModelRegistry
 from contrastive_hidden_states.concepts import parse_contrastive_concepts
 from contrastive_hidden_states.generation import generate_responses, save_generation_bundle
 from contrastive_hidden_states.prompts import (
+    VALID_VARIANTS,
     VARIANT_ORDER,
     build_pair_examples,
     load_statement_groups,
@@ -79,9 +80,9 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--variants",
         nargs="+",
-        choices=VARIANT_ORDER,
+        choices=VALID_VARIANTS,
         default=list(VARIANT_ORDER),
-        help="Prompt variants to generate: negative, base, positive.",
+        help="Prompt variants to generate: negative, base, positive, negpos, posneg.",
     )
     parser.add_argument(
         "--torch-dtype",

@@ -1,0 +1,54 @@
+{
+  "run_config": {
+    "concepts_file": "/content/drive/MyDrive/Wisc/contrastive_concepts.txt",
+    "statement_files": [
+      "/content/drive/MyDrive/Wisc/contrastive_hidden_states/data/statements_300/class_0.txt",
+      "/content/drive/MyDrive/Wisc/contrastive_hidden_states/data/statements_300/class_1.txt",
+      "/content/drive/MyDrive/Wisc/contrastive_hidden_states/data/statements_300/class_2.txt"
+    ],
+    "statement_mapping": {
+      "negative": "class_0.txt",
+      "base": "class_1.txt",
+      "positive": "class_2.txt"
+    },
+    "num_statements_per_variant": {
+      "negative": 100,
+      "base": 100,
+      "positive": 100
+    },
+    "model_arg": "Qwen/Qwen2.5-1.5B-Instruct",
+    "resolved_model_name": "Qwen/Qwen2.5-1.5B-Instruct",
+    "backend": "vllm",
+    "tensor_parallel_size": 1,
+    "dtype": "bfloat16",
+    "max_model_len": null,
+    "gpu_memory_utilization": 0.9,
+    "steering_enabled": false,
+    "steering_vector_path_template": null,
+    "pair_steering": false,
+    "steering_strength": null,
+    "steering_layers": null,
+    "batch_size": 100,
+    "max_new_tokens": 1024,
+    "variants": [
+      "negpos"
+    ],
+    "do_sample": true,
+    "temperature": 0.7,
+    "top_p": 0.8,
+    "top_k": 20,
+    "repetition_penalty": 1.05,
+    "add_generation_prompt": true,
+    "strip_default_system_prompt": false,
+    "steering_vector_path": null
+  },
+  "num_examples": 100,
+  "variant_counts": {
+    "negpos": 100
+  },
+  "saved_files": {
+    "negpos": [
+      "generations.jsonl"
+    ]
+  }
+}
