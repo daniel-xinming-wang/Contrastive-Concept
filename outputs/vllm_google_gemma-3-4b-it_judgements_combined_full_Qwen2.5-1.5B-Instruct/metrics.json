@@ -1,0 +1,4466 @@
+{
+  "overall": [
+    {
+      "key": [
+        "overall"
+      ],
+      "n": 30000,
+      "success_rate": 0.4226,
+      "num_success": 12678
+    }
+  ],
+  "by_order": [
+    {
+      "key": [
+        "negpos"
+      ],
+      "n": 15000,
+      "success_rate": 0.41313333333333335,
+      "num_success": 6197
+    },
+    {
+      "key": [
+        "posneg"
+      ],
+      "n": 15000,
+      "success_rate": 0.43206666666666665,
+      "num_success": 6481
+    }
+  ],
+  "by_category": [
+    {
+      "key": [
+        "ideology"
+      ],
+      "n": 10000,
+      "success_rate": 0.2483,
+      "num_success": 2483
+    },
+    {
+      "key": [
+        "linguistic_style"
+      ],
+      "n": 10000,
+      "success_rate": 0.2038,
+      "num_success": 2038
+    },
+    {
+      "key": [
+        "semantic_framing"
+      ],
+      "n": 10000,
+      "success_rate": 0.8157,
+      "num_success": 8157
+    }
+  ],
+  "by_category_order": [
+    {
+      "key": [
+        "ideology",
+        "negpos"
+      ],
+      "n": 5000,
+      "success_rate": 0.2494,
+      "num_success": 1247
+    },
+    {
+      "key": [
+        "ideology",
+        "posneg"
+      ],
+      "n": 5000,
+      "success_rate": 0.2472,
+      "num_success": 1236
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "negpos"
+      ],
+      "n": 5000,
+      "success_rate": 0.1746,
+      "num_success": 873
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "posneg"
+      ],
+      "n": 5000,
+      "success_rate": 0.233,
+      "num_success": 1165
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "negpos"
+      ],
+      "n": 5000,
+      "success_rate": 0.8154,
+      "num_success": 4077
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "posneg"
+      ],
+      "n": 5000,
+      "success_rate": 0.816,
+      "num_success": 4080
+    }
+  ],
+  "by_pair": [
+    {
+      "key": [
+        "ideology",
+        "ideology__centralization_support__decentralization_support"
+      ],
+      "n": 200,
+      "success_rate": 0.33,
+      "num_success": 66
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__collective_benefit__personal_benefit"
+      ],
+      "n": 200,
+      "success_rate": 0.415,
+      "num_success": 83
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__collective_responsibility__individual_responsibility"
+      ],
+      "n": 200,
+      "success_rate": 0.4,
+      "num_success": 80
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__collective_security__civil_liberty"
+      ],
+      "n": 200,
+      "success_rate": 0.25,
+      "num_success": 50
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__collective_welfare__individual_liberty"
+      ],
+      "n": 200,
+      "success_rate": 0.465,
+      "num_success": 93
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__competition_policy__cooperation_policy"
+      ],
+      "n": 200,
+      "success_rate": 0.13,
+      "num_success": 26
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__consumer_protection__corporate_freedom"
+      ],
+      "n": 200,
+      "success_rate": 0.25,
+      "num_success": 50
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__data_protection_priority__data_utilization_priority"
+      ],
+      "n": 200,
+      "success_rate": 0.27,
+      "num_success": 54
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__economic_growth_priority__sustainability_priority"
+      ],
+      "n": 200,
+      "success_rate": 0.335,
+      "num_success": 67
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__energy_transition__fossil_energy_support"
+      ],
+      "n": 200,
+      "success_rate": 0.055,
+      "num_success": 11
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__environmental_protection__economic_growth"
+      ],
+      "n": 200,
+      "success_rate": 0.195,
+      "num_success": 39
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__equality_priority__merit_priority"
+      ],
+      "n": 200,
+      "success_rate": 0.2,
+      "num_success": 40
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__equity_priority__efficiency_priority"
+      ],
+      "n": 200,
+      "success_rate": 0.4,
+      "num_success": 80
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__global_cooperation__national_self_reliance"
+      ],
+      "n": 200,
+      "success_rate": 0.205,
+      "num_success": 41
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__government_intervention__free_market"
+      ],
+      "n": 200,
+      "success_rate": 0.255,
+      "num_success": 51
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__hierarchy_support__egalitarianism_support"
+      ],
+      "n": 200,
+      "success_rate": 0.355,
+      "num_success": 71
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__human_rights_priority__sovereignty_priority"
+      ],
+      "n": 200,
+      "success_rate": 0.19,
+      "num_success": 38
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__inclusive_policy__selective_policy"
+      ],
+      "n": 200,
+      "success_rate": 0.25,
+      "num_success": 50
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__industrial_policy__market_coordination"
+      ],
+      "n": 200,
+      "success_rate": 0.15,
+      "num_success": 30
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__institution_trust__institution_skepticism"
+      ],
+      "n": 200,
+      "success_rate": 0.425,
+      "num_success": 85
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__institutional_solutions__market_solutions"
+      ],
+      "n": 200,
+      "success_rate": 0.265,
+      "num_success": 53
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__law_and_order__reform_priority"
+      ],
+      "n": 200,
+      "success_rate": 0.09,
+      "num_success": 18
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__long_term_stability__rapid_innovation"
+      ],
+      "n": 200,
+      "success_rate": 0.18,
+      "num_success": 36
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__national_priority__global_priority"
+      ],
+      "n": 200,
+      "success_rate": 0.215,
+      "num_success": 43
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__policy_gradualism__policy_radicalism"
+      ],
+      "n": 200,
+      "success_rate": 0.35,
+      "num_success": 70
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__precautionary_principle__innovation_principle"
+      ],
+      "n": 200,
+      "success_rate": 0.46,
+      "num_success": 92
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__precautionary_regulation__innovation_deregulation"
+      ],
+      "n": 200,
+      "success_rate": 0.295,
+      "num_success": 59
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__privacy_priority__surveillance_acceptance"
+      ],
+      "n": 200,
+      "success_rate": 0.155,
+      "num_success": 31
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__protectionism__free_trade"
+      ],
+      "n": 200,
+      "success_rate": 0.115,
+      "num_success": 23
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__public_health_priority__economic_activity_priority"
+      ],
+      "n": 200,
+      "success_rate": 0.265,
+      "num_success": 53
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__public_interest__private_interest"
+      ],
+      "n": 200,
+      "success_rate": 0.155,
+      "num_success": 31
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__public_sector_priority__private_sector_priority"
+      ],
+      "n": 200,
+      "success_rate": 0.225,
+      "num_success": 45
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__punishment_oriented__rehabilitation_oriented"
+      ],
+      "n": 200,
+      "success_rate": 0.175,
+      "num_success": 35
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__redistribution__wealth_concentration_acceptance"
+      ],
+      "n": 200,
+      "success_rate": 0.085,
+      "num_success": 17
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__redistribution_supporting__market_outcome_supporting"
+      ],
+      "n": 200,
+      "success_rate": 0.225,
+      "num_success": 45
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__regulation_of_technology__tech_self_governance"
+      ],
+      "n": 200,
+      "success_rate": 0.165,
+      "num_success": 33
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__regulation_supporting__deregulation_supporting"
+      ],
+      "n": 200,
+      "success_rate": 0.14,
+      "num_success": 28
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__regulatory_caution__entrepreneurial_freedom"
+      ],
+      "n": 200,
+      "success_rate": 0.32,
+      "num_success": 64
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__resource_conservation__resource_utilization"
+      ],
+      "n": 200,
+      "success_rate": 0.13,
+      "num_success": 26
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__risk_averse__risk_seeking"
+      ],
+      "n": 200,
+      "success_rate": 0.18,
+      "num_success": 36
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__security_priority__freedom_priority"
+      ],
+      "n": 200,
+      "success_rate": 0.345,
+      "num_success": 69
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__social_cohesion__individual_autonomy"
+      ],
+      "n": 200,
+      "success_rate": 0.585,
+      "num_success": 117
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__social_equality__outcome_inequality_acceptance"
+      ],
+      "n": 200,
+      "success_rate": 0.215,
+      "num_success": 43
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__social_safety_net__minimal_welfare"
+      ],
+      "n": 200,
+      "success_rate": 0.08,
+      "num_success": 16
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__social_stability__disruptive_change"
+      ],
+      "n": 200,
+      "success_rate": 0.33,
+      "num_success": 66
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__strict_regulation__flexible_regulation"
+      ],
+      "n": 200,
+      "success_rate": 0.255,
+      "num_success": 51
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__tradition_priority__progress_priority"
+      ],
+      "n": 200,
+      "success_rate": 0.345,
+      "num_success": 69
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__universal_policy__targeted_policy"
+      ],
+      "n": 200,
+      "success_rate": 0.26,
+      "num_success": 52
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__urban_development__environmental_preservation"
+      ],
+      "n": 200,
+      "success_rate": 0.16,
+      "num_success": 32
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__welfare_expansion__fiscal_restraint"
+      ],
+      "n": 200,
+      "success_rate": 0.125,
+      "num_success": 25
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__abstract_wording__concrete_wording"
+      ],
+      "n": 200,
+      "success_rate": 0.49,
+      "num_success": 98
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__academic_style__everyday_style"
+      ],
+      "n": 200,
+      "success_rate": 0.625,
+      "num_success": 125
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__analytic_presentation__descriptive_presentation"
+      ],
+      "n": 200,
+      "success_rate": 0.4,
+      "num_success": 80
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__basic_vocabulary__advanced_vocabulary"
+      ],
+      "n": 200,
+      "success_rate": 0.0,
+      "num_success": 0
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__brief__elaborate"
+      ],
+      "n": 200,
+      "success_rate": 0.005,
+      "num_success": 1
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__bullet_point_style__paragraph_style"
+      ],
+      "n": 200,
+      "success_rate": 0.065,
+      "num_success": 13
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__compact__expansive"
+      ],
+      "n": 200,
+      "success_rate": 0.0,
+      "num_success": 0
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__compressed_explanation__expanded_explanation"
+      ],
+      "n": 200,
+      "success_rate": 0.64,
+      "num_success": 128
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__compressed_syntax__expanded_syntax"
+      ],
+      "n": 200,
+      "success_rate": 0.475,
+      "num_success": 95
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__conceptual_explanation__illustrative_explanation"
+      ],
+      "n": 200,
+      "success_rate": 0.545,
+      "num_success": 109
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__concise__verbose"
+      ],
+      "n": 200,
+      "success_rate": 0.0,
+      "num_success": 0
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__condensed_expression__extended_expression"
+      ],
+      "n": 200,
+      "success_rate": 0.4,
+      "num_success": 80
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__definition_first__example_first"
+      ],
+      "n": 200,
+      "success_rate": 0.17,
+      "num_success": 34
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__dense_information__sparse_information"
+      ],
+      "n": 200,
+      "success_rate": 0.08,
+      "num_success": 16
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__diagrammatic_description__narrative_description"
+      ],
+      "n": 200,
+      "success_rate": 0.245,
+      "num_success": 49
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__direct_phrasing__circumlocutory_phrasing"
+      ],
+      "n": 200,
+      "success_rate": 0.36,
+      "num_success": 72
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__economical_wording__descriptive_wording"
+      ],
+      "n": 200,
+      "success_rate": 0.01,
+      "num_success": 2
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__efficient_wording__redundant_wording"
+      ],
+      "n": 200,
+      "success_rate": 0.0,
+      "num_success": 0
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__exact_wording__paraphrastic_wording"
+      ],
+      "n": 200,
+      "success_rate": 0.015,
+      "num_success": 3
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__explicit_phrasing__implicit_phrasing"
+      ],
+      "n": 200,
+      "success_rate": 0.83,
+      "num_success": 166
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__formal_register__informal_register"
+      ],
+      "n": 200,
+      "success_rate": 0.645,
+      "num_success": 129
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__formulaic_structure__free_structure"
+      ],
+      "n": 200,
+      "success_rate": 0.015,
+      "num_success": 3
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__fully_specified__loosely_specified"
+      ],
+      "n": 200,
+      "success_rate": 0.225,
+      "num_success": 45
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__generalized_description__instance_based_description"
+      ],
+      "n": 200,
+      "success_rate": 0.75,
+      "num_success": 150
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__high_information_density__low_information_density"
+      ],
+      "n": 200,
+      "success_rate": 0.105,
+      "num_success": 21
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__information_focused_wording__stylistic_wording"
+      ],
+      "n": 200,
+      "success_rate": 0.035,
+      "num_success": 7
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__lean_prose__ornate_prose"
+      ],
+      "n": 200,
+      "success_rate": 0.005,
+      "num_success": 1
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__linear_explanation__digressive_explanation"
+      ],
+      "n": 200,
+      "success_rate": 0.32,
+      "num_success": 64
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__list_style__discursive_style"
+      ],
+      "n": 200,
+      "success_rate": 0.035,
+      "num_success": 7
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__literal_phrasing__figurative_phrasing"
+      ],
+      "n": 200,
+      "success_rate": 0.315,
+      "num_success": 63
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__minimal__extensive"
+      ],
+      "n": 200,
+      "success_rate": 0.005,
+      "num_success": 1
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__neutral_register__colloquial_register"
+      ],
+      "n": 200,
+      "success_rate": 0.02,
+      "num_success": 4
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__outline_style__narrative_style"
+      ],
+      "n": 200,
+      "success_rate": 0.205,
+      "num_success": 41
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__plain_language__technical_language"
+      ],
+      "n": 200,
+      "success_rate": 0.015,
+      "num_success": 3
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__precise_wording__approximate_wording"
+      ],
+      "n": 200,
+      "success_rate": 0.01,
+      "num_success": 2
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__professional_register__conversational_register"
+      ],
+      "n": 200,
+      "success_rate": 0.015,
+      "num_success": 3
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__short_form__long_form"
+      ],
+      "n": 200,
+      "success_rate": 0.445,
+      "num_success": 89
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__simple_wording__sophisticated_wording"
+      ],
+      "n": 200,
+      "success_rate": 0.05,
+      "num_success": 10
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__specific_wording__general_wording"
+      ],
+      "n": 200,
+      "success_rate": 0.11,
+      "num_success": 22
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__step_by_step__holistic_description"
+      ],
+      "n": 200,
+      "success_rate": 0.11,
+      "num_success": 22
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__straightforward_style__rhetorical_style"
+      ],
+      "n": 200,
+      "success_rate": 0.415,
+      "num_success": 83
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__structured__free_flowing"
+      ],
+      "n": 200,
+      "success_rate": 0.0,
+      "num_success": 0
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__succinct__detailed"
+      ],
+      "n": 200,
+      "success_rate": 0.0,
+      "num_success": 0
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__summary_style__full_exposition"
+      ],
+      "n": 200,
+      "success_rate": 0.025,
+      "num_success": 5
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__systematic_layout__impressionistic_layout"
+      ],
+      "n": 200,
+      "success_rate": 0.22,
+      "num_success": 44
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__taxonomy_style__story_style"
+      ],
+      "n": 200,
+      "success_rate": 0.085,
+      "num_success": 17
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__technical_register__lay_register"
+      ],
+      "n": 200,
+      "success_rate": 0.295,
+      "num_success": 59
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__terminology_heavy__terminology_light"
+      ],
+      "n": 200,
+      "success_rate": 0.08,
+      "num_success": 16
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__tight_structure__loose_structure"
+      ],
+      "n": 200,
+      "success_rate": 0.26,
+      "num_success": 52
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__well_organized__loosely_organized"
+      ],
+      "n": 200,
+      "success_rate": 0.02,
+      "num_success": 4
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__analytic_perspective__experiential_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.815,
+      "num_success": 163
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__behavioral_perspective__structural_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.905,
+      "num_success": 181
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__capability_perspective__limitation_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.905,
+      "num_success": 181
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__causal_perspective__correlational_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.895,
+      "num_success": 179
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__competition_perspective__cooperation_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.85,
+      "num_success": 170
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__constraint_perspective__capability_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.885,
+      "num_success": 177
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__cost_benefit_perspective__duty_based_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.905,
+      "num_success": 181
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__cost_effectiveness_perspective__moral_value_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.84,
+      "num_success": 168
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__cost_perspective__benefit_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.8,
+      "num_success": 160
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__diagnostic_perspective__prescriptive_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.78,
+      "num_success": 156
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__economic_perspective__ethical_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.885,
+      "num_success": 177
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__efficiency_analysis_perspective__equity_analysis_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.81,
+      "num_success": 162
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__efficiency_perspective__fairness_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.86,
+      "num_success": 172
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__effort_perspective__outcome_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.84,
+      "num_success": 168
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__evidence_perspective__narrative_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.785,
+      "num_success": 157
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__feasibility_perspective__desirability_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.83,
+      "num_success": 166
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__growth_perspective__sustainability_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.805,
+      "num_success": 161
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__impact_measurement_perspective__principle_based_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.705,
+      "num_success": 141
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__implementation_perspective__design_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.675,
+      "num_success": 135
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__incentive_perspective__norm_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.885,
+      "num_success": 177
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__individual_impact_perspective__system_impact_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.87,
+      "num_success": 174
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__individual_perspective__societal_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.895,
+      "num_success": 179
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__innovation_benefit_perspective__innovation_risk_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.8,
+      "num_success": 160
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__innovation_perspective__regulation_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.735,
+      "num_success": 147
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__local_perspective__global_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.805,
+      "num_success": 161
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__logic_perspective__empathy_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.83,
+      "num_success": 166
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__mechanistic_perspective__holistic_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.82,
+      "num_success": 164
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__micro_level_perspective__macro_level_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.91,
+      "num_success": 182
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__operational_perspective__strategic_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.79,
+      "num_success": 158
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__optimization_perspective__resilience_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.85,
+      "num_success": 170
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__optimization_perspective__satisficing_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.89,
+      "num_success": 178
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__output_perspective__process_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.79,
+      "num_success": 158
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__performance_metric_perspective__well_being_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.83,
+      "num_success": 166
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__performance_perspective__safety_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.735,
+      "num_success": 147
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__practical_perspective__theoretical_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.735,
+      "num_success": 147
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__precision_perspective__robustness_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.815,
+      "num_success": 163
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__prediction_perspective__explanation_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.695,
+      "num_success": 139
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__problem_perspective__solution_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.695,
+      "num_success": 139
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__process_perspective__outcome_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.83,
+      "num_success": 166
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__producer_perspective__consumer_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.86,
+      "num_success": 172
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__quantitative_perspective__qualitative_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.805,
+      "num_success": 161
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__resource_allocation_perspective__value_distribution_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.875,
+      "num_success": 175
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__resource_perspective__impact_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.76,
+      "num_success": 152
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__risk_perspective__opportunity_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.805,
+      "num_success": 161
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__scalability_perspective__feasibility_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.815,
+      "num_success": 163
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__short_term_perspective__long_term_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.67,
+      "num_success": 134
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__supply_perspective__demand_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.735,
+      "num_success": 147
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__technical_perspective__human_centered_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.805,
+      "num_success": 161
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__tradeoff_perspective__win_win_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.775,
+      "num_success": 155
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__utility_perspective__rights_perspective"
+      ],
+      "n": 200,
+      "success_rate": 0.9,
+      "num_success": 180
+    }
+  ],
+  "by_pair_order": [
+    {
+      "key": [
+        "ideology",
+        "ideology__centralization_support__decentralization_support",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.33,
+      "num_success": 33
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__centralization_support__decentralization_support",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.33,
+      "num_success": 33
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__collective_benefit__personal_benefit",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.41,
+      "num_success": 41
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__collective_benefit__personal_benefit",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.42,
+      "num_success": 42
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__collective_responsibility__individual_responsibility",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.35,
+      "num_success": 35
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__collective_responsibility__individual_responsibility",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.45,
+      "num_success": 45
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__collective_security__civil_liberty",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.25,
+      "num_success": 25
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__collective_security__civil_liberty",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.25,
+      "num_success": 25
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__collective_welfare__individual_liberty",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.47,
+      "num_success": 47
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__collective_welfare__individual_liberty",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.46,
+      "num_success": 46
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__competition_policy__cooperation_policy",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.15,
+      "num_success": 15
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__competition_policy__cooperation_policy",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.11,
+      "num_success": 11
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__consumer_protection__corporate_freedom",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.26,
+      "num_success": 26
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__consumer_protection__corporate_freedom",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.24,
+      "num_success": 24
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__data_protection_priority__data_utilization_priority",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.23,
+      "num_success": 23
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__data_protection_priority__data_utilization_priority",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.31,
+      "num_success": 31
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__economic_growth_priority__sustainability_priority",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.36,
+      "num_success": 36
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__economic_growth_priority__sustainability_priority",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.31,
+      "num_success": 31
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__energy_transition__fossil_energy_support",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.07,
+      "num_success": 7
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__energy_transition__fossil_energy_support",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.04,
+      "num_success": 4
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__environmental_protection__economic_growth",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.21,
+      "num_success": 21
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__environmental_protection__economic_growth",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.18,
+      "num_success": 18
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__equality_priority__merit_priority",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.25,
+      "num_success": 25
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__equality_priority__merit_priority",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.15,
+      "num_success": 15
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__equity_priority__efficiency_priority",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.46,
+      "num_success": 46
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__equity_priority__efficiency_priority",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.34,
+      "num_success": 34
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__global_cooperation__national_self_reliance",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.22,
+      "num_success": 22
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__global_cooperation__national_self_reliance",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.19,
+      "num_success": 19
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__government_intervention__free_market",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.3,
+      "num_success": 30
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__government_intervention__free_market",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.21,
+      "num_success": 21
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__hierarchy_support__egalitarianism_support",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.37,
+      "num_success": 37
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__hierarchy_support__egalitarianism_support",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.34,
+      "num_success": 34
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__human_rights_priority__sovereignty_priority",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.21,
+      "num_success": 21
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__human_rights_priority__sovereignty_priority",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.17,
+      "num_success": 17
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__inclusive_policy__selective_policy",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.2,
+      "num_success": 20
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__inclusive_policy__selective_policy",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.3,
+      "num_success": 30
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__industrial_policy__market_coordination",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.16,
+      "num_success": 16
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__industrial_policy__market_coordination",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.14,
+      "num_success": 14
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__institution_trust__institution_skepticism",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.34,
+      "num_success": 34
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__institution_trust__institution_skepticism",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.51,
+      "num_success": 51
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__institutional_solutions__market_solutions",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.24,
+      "num_success": 24
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__institutional_solutions__market_solutions",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.29,
+      "num_success": 29
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__law_and_order__reform_priority",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.07,
+      "num_success": 7
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__law_and_order__reform_priority",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.11,
+      "num_success": 11
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__long_term_stability__rapid_innovation",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.2,
+      "num_success": 20
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__long_term_stability__rapid_innovation",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.16,
+      "num_success": 16
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__national_priority__global_priority",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.27,
+      "num_success": 27
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__national_priority__global_priority",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.16,
+      "num_success": 16
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__policy_gradualism__policy_radicalism",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.31,
+      "num_success": 31
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__policy_gradualism__policy_radicalism",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.39,
+      "num_success": 39
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__precautionary_principle__innovation_principle",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.5,
+      "num_success": 50
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__precautionary_principle__innovation_principle",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.42,
+      "num_success": 42
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__precautionary_regulation__innovation_deregulation",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.35,
+      "num_success": 35
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__precautionary_regulation__innovation_deregulation",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.24,
+      "num_success": 24
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__privacy_priority__surveillance_acceptance",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.16,
+      "num_success": 16
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__privacy_priority__surveillance_acceptance",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.15,
+      "num_success": 15
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__protectionism__free_trade",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.16,
+      "num_success": 16
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__protectionism__free_trade",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.07,
+      "num_success": 7
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__public_health_priority__economic_activity_priority",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.21,
+      "num_success": 21
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__public_health_priority__economic_activity_priority",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.32,
+      "num_success": 32
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__public_interest__private_interest",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.12,
+      "num_success": 12
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__public_interest__private_interest",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.19,
+      "num_success": 19
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__public_sector_priority__private_sector_priority",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.19,
+      "num_success": 19
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__public_sector_priority__private_sector_priority",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.26,
+      "num_success": 26
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__punishment_oriented__rehabilitation_oriented",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.21,
+      "num_success": 21
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__punishment_oriented__rehabilitation_oriented",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.14,
+      "num_success": 14
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__redistribution__wealth_concentration_acceptance",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.15,
+      "num_success": 15
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__redistribution__wealth_concentration_acceptance",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.02,
+      "num_success": 2
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__redistribution_supporting__market_outcome_supporting",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.19,
+      "num_success": 19
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__redistribution_supporting__market_outcome_supporting",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.26,
+      "num_success": 26
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__regulation_of_technology__tech_self_governance",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.23,
+      "num_success": 23
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__regulation_of_technology__tech_self_governance",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.1,
+      "num_success": 10
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__regulation_supporting__deregulation_supporting",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.13,
+      "num_success": 13
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__regulation_supporting__deregulation_supporting",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.15,
+      "num_success": 15
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__regulatory_caution__entrepreneurial_freedom",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.3,
+      "num_success": 30
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__regulatory_caution__entrepreneurial_freedom",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.34,
+      "num_success": 34
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__resource_conservation__resource_utilization",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.09,
+      "num_success": 9
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__resource_conservation__resource_utilization",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.17,
+      "num_success": 17
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__risk_averse__risk_seeking",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.13,
+      "num_success": 13
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__risk_averse__risk_seeking",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.23,
+      "num_success": 23
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__security_priority__freedom_priority",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.26,
+      "num_success": 26
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__security_priority__freedom_priority",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.43,
+      "num_success": 43
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__social_cohesion__individual_autonomy",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.58,
+      "num_success": 58
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__social_cohesion__individual_autonomy",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.59,
+      "num_success": 59
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__social_equality__outcome_inequality_acceptance",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.31,
+      "num_success": 31
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__social_equality__outcome_inequality_acceptance",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.12,
+      "num_success": 12
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__social_safety_net__minimal_welfare",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.11,
+      "num_success": 11
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__social_safety_net__minimal_welfare",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.05,
+      "num_success": 5
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__social_stability__disruptive_change",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.29,
+      "num_success": 29
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__social_stability__disruptive_change",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.37,
+      "num_success": 37
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__strict_regulation__flexible_regulation",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.26,
+      "num_success": 26
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__strict_regulation__flexible_regulation",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.25,
+      "num_success": 25
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__tradition_priority__progress_priority",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.36,
+      "num_success": 36
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__tradition_priority__progress_priority",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.33,
+      "num_success": 33
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__universal_policy__targeted_policy",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.21,
+      "num_success": 21
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__universal_policy__targeted_policy",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.31,
+      "num_success": 31
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__urban_development__environmental_preservation",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.16,
+      "num_success": 16
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__urban_development__environmental_preservation",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.16,
+      "num_success": 16
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__welfare_expansion__fiscal_restraint",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.12,
+      "num_success": 12
+    },
+    {
+      "key": [
+        "ideology",
+        "ideology__welfare_expansion__fiscal_restraint",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.13,
+      "num_success": 13
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__abstract_wording__concrete_wording",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.56,
+      "num_success": 56
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__abstract_wording__concrete_wording",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.42,
+      "num_success": 42
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__academic_style__everyday_style",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.64,
+      "num_success": 64
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__academic_style__everyday_style",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.61,
+      "num_success": 61
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__analytic_presentation__descriptive_presentation",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.5,
+      "num_success": 50
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__analytic_presentation__descriptive_presentation",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.3,
+      "num_success": 30
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__basic_vocabulary__advanced_vocabulary",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.0,
+      "num_success": 0
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__basic_vocabulary__advanced_vocabulary",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.0,
+      "num_success": 0
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__brief__elaborate",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.0,
+      "num_success": 0
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__brief__elaborate",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.01,
+      "num_success": 1
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__bullet_point_style__paragraph_style",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.09,
+      "num_success": 9
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__bullet_point_style__paragraph_style",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.04,
+      "num_success": 4
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__compact__expansive",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.0,
+      "num_success": 0
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__compact__expansive",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.0,
+      "num_success": 0
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__compressed_explanation__expanded_explanation",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.5,
+      "num_success": 50
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__compressed_explanation__expanded_explanation",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.78,
+      "num_success": 78
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__compressed_syntax__expanded_syntax",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.26,
+      "num_success": 26
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__compressed_syntax__expanded_syntax",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.69,
+      "num_success": 69
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__conceptual_explanation__illustrative_explanation",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.48,
+      "num_success": 48
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__conceptual_explanation__illustrative_explanation",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.61,
+      "num_success": 61
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__concise__verbose",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.0,
+      "num_success": 0
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__concise__verbose",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.0,
+      "num_success": 0
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__condensed_expression__extended_expression",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.12,
+      "num_success": 12
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__condensed_expression__extended_expression",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.68,
+      "num_success": 68
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__definition_first__example_first",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.07,
+      "num_success": 7
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__definition_first__example_first",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.27,
+      "num_success": 27
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__dense_information__sparse_information",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.12,
+      "num_success": 12
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__dense_information__sparse_information",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.04,
+      "num_success": 4
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__diagrammatic_description__narrative_description",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.13,
+      "num_success": 13
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__diagrammatic_description__narrative_description",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.36,
+      "num_success": 36
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__direct_phrasing__circumlocutory_phrasing",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.14,
+      "num_success": 14
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__direct_phrasing__circumlocutory_phrasing",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.58,
+      "num_success": 58
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__economical_wording__descriptive_wording",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.02,
+      "num_success": 2
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__economical_wording__descriptive_wording",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.0,
+      "num_success": 0
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__efficient_wording__redundant_wording",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.0,
+      "num_success": 0
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__efficient_wording__redundant_wording",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.0,
+      "num_success": 0
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__exact_wording__paraphrastic_wording",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.0,
+      "num_success": 0
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__exact_wording__paraphrastic_wording",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.03,
+      "num_success": 3
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__explicit_phrasing__implicit_phrasing",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.93,
+      "num_success": 93
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__explicit_phrasing__implicit_phrasing",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.73,
+      "num_success": 73
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__formal_register__informal_register",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.69,
+      "num_success": 69
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__formal_register__informal_register",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.6,
+      "num_success": 60
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__formulaic_structure__free_structure",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.0,
+      "num_success": 0
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__formulaic_structure__free_structure",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.03,
+      "num_success": 3
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__fully_specified__loosely_specified",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.23,
+      "num_success": 23
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__fully_specified__loosely_specified",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.22,
+      "num_success": 22
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__generalized_description__instance_based_description",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.77,
+      "num_success": 77
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__generalized_description__instance_based_description",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.73,
+      "num_success": 73
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__high_information_density__low_information_density",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.02,
+      "num_success": 2
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__high_information_density__low_information_density",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.19,
+      "num_success": 19
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__information_focused_wording__stylistic_wording",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.04,
+      "num_success": 4
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__information_focused_wording__stylistic_wording",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.03,
+      "num_success": 3
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__lean_prose__ornate_prose",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.01,
+      "num_success": 1
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__lean_prose__ornate_prose",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.0,
+      "num_success": 0
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__linear_explanation__digressive_explanation",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.18,
+      "num_success": 18
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__linear_explanation__digressive_explanation",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.46,
+      "num_success": 46
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__list_style__discursive_style",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.05,
+      "num_success": 5
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__list_style__discursive_style",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.02,
+      "num_success": 2
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__literal_phrasing__figurative_phrasing",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.48,
+      "num_success": 48
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__literal_phrasing__figurative_phrasing",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.15,
+      "num_success": 15
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__minimal__extensive",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.01,
+      "num_success": 1
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__minimal__extensive",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.0,
+      "num_success": 0
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__neutral_register__colloquial_register",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.0,
+      "num_success": 0
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__neutral_register__colloquial_register",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.04,
+      "num_success": 4
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__outline_style__narrative_style",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.14,
+      "num_success": 14
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__outline_style__narrative_style",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.27,
+      "num_success": 27
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__plain_language__technical_language",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.01,
+      "num_success": 1
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__plain_language__technical_language",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.02,
+      "num_success": 2
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__precise_wording__approximate_wording",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.02,
+      "num_success": 2
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__precise_wording__approximate_wording",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.0,
+      "num_success": 0
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__professional_register__conversational_register",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.0,
+      "num_success": 0
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__professional_register__conversational_register",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.03,
+      "num_success": 3
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__short_form__long_form",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.07,
+      "num_success": 7
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__short_form__long_form",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.82,
+      "num_success": 82
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__simple_wording__sophisticated_wording",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.0,
+      "num_success": 0
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__simple_wording__sophisticated_wording",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.1,
+      "num_success": 10
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__specific_wording__general_wording",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.04,
+      "num_success": 4
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__specific_wording__general_wording",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.18,
+      "num_success": 18
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__step_by_step__holistic_description",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.15,
+      "num_success": 15
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__step_by_step__holistic_description",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.07,
+      "num_success": 7
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__straightforward_style__rhetorical_style",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.37,
+      "num_success": 37
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__straightforward_style__rhetorical_style",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.46,
+      "num_success": 46
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__structured__free_flowing",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.0,
+      "num_success": 0
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__structured__free_flowing",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.0,
+      "num_success": 0
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__succinct__detailed",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.0,
+      "num_success": 0
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__succinct__detailed",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.0,
+      "num_success": 0
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__summary_style__full_exposition",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.0,
+      "num_success": 0
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__summary_style__full_exposition",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.05,
+      "num_success": 5
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__systematic_layout__impressionistic_layout",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.28,
+      "num_success": 28
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__systematic_layout__impressionistic_layout",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.16,
+      "num_success": 16
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__taxonomy_style__story_style",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.08,
+      "num_success": 8
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__taxonomy_style__story_style",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.09,
+      "num_success": 9
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__technical_register__lay_register",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.29,
+      "num_success": 29
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__technical_register__lay_register",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.3,
+      "num_success": 30
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__terminology_heavy__terminology_light",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.07,
+      "num_success": 7
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__terminology_heavy__terminology_light",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.09,
+      "num_success": 9
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__tight_structure__loose_structure",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.13,
+      "num_success": 13
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__tight_structure__loose_structure",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.39,
+      "num_success": 39
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__well_organized__loosely_organized",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.04,
+      "num_success": 4
+    },
+    {
+      "key": [
+        "linguistic_style",
+        "linguistic_style__well_organized__loosely_organized",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.0,
+      "num_success": 0
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__analytic_perspective__experiential_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.86,
+      "num_success": 86
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__analytic_perspective__experiential_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.77,
+      "num_success": 77
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__behavioral_perspective__structural_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.93,
+      "num_success": 93
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__behavioral_perspective__structural_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.88,
+      "num_success": 88
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__capability_perspective__limitation_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.91,
+      "num_success": 91
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__capability_perspective__limitation_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.9,
+      "num_success": 90
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__causal_perspective__correlational_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.87,
+      "num_success": 87
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__causal_perspective__correlational_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.92,
+      "num_success": 92
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__competition_perspective__cooperation_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.86,
+      "num_success": 86
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__competition_perspective__cooperation_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.84,
+      "num_success": 84
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__constraint_perspective__capability_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.88,
+      "num_success": 88
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__constraint_perspective__capability_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.89,
+      "num_success": 89
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__cost_benefit_perspective__duty_based_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.94,
+      "num_success": 94
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__cost_benefit_perspective__duty_based_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.87,
+      "num_success": 87
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__cost_effectiveness_perspective__moral_value_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.83,
+      "num_success": 83
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__cost_effectiveness_perspective__moral_value_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.85,
+      "num_success": 85
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__cost_perspective__benefit_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.82,
+      "num_success": 82
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__cost_perspective__benefit_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.78,
+      "num_success": 78
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__diagnostic_perspective__prescriptive_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.78,
+      "num_success": 78
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__diagnostic_perspective__prescriptive_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.78,
+      "num_success": 78
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__economic_perspective__ethical_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.92,
+      "num_success": 92
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__economic_perspective__ethical_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.85,
+      "num_success": 85
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__efficiency_analysis_perspective__equity_analysis_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.78,
+      "num_success": 78
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__efficiency_analysis_perspective__equity_analysis_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.84,
+      "num_success": 84
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__efficiency_perspective__fairness_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.85,
+      "num_success": 85
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__efficiency_perspective__fairness_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.87,
+      "num_success": 87
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__effort_perspective__outcome_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.81,
+      "num_success": 81
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__effort_perspective__outcome_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.87,
+      "num_success": 87
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__evidence_perspective__narrative_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.79,
+      "num_success": 79
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__evidence_perspective__narrative_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.78,
+      "num_success": 78
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__feasibility_perspective__desirability_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.82,
+      "num_success": 82
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__feasibility_perspective__desirability_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.84,
+      "num_success": 84
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__growth_perspective__sustainability_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.79,
+      "num_success": 79
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__growth_perspective__sustainability_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.82,
+      "num_success": 82
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__impact_measurement_perspective__principle_based_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.76,
+      "num_success": 76
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__impact_measurement_perspective__principle_based_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.65,
+      "num_success": 65
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__implementation_perspective__design_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.68,
+      "num_success": 68
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__implementation_perspective__design_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.67,
+      "num_success": 67
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__incentive_perspective__norm_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.89,
+      "num_success": 89
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__incentive_perspective__norm_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.88,
+      "num_success": 88
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__individual_impact_perspective__system_impact_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.89,
+      "num_success": 89
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__individual_impact_perspective__system_impact_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.85,
+      "num_success": 85
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__individual_perspective__societal_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.91,
+      "num_success": 91
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__individual_perspective__societal_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.88,
+      "num_success": 88
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__innovation_benefit_perspective__innovation_risk_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.77,
+      "num_success": 77
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__innovation_benefit_perspective__innovation_risk_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.83,
+      "num_success": 83
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__innovation_perspective__regulation_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.81,
+      "num_success": 81
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__innovation_perspective__regulation_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.66,
+      "num_success": 66
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__local_perspective__global_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.85,
+      "num_success": 85
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__local_perspective__global_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.76,
+      "num_success": 76
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__logic_perspective__empathy_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.89,
+      "num_success": 89
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__logic_perspective__empathy_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.77,
+      "num_success": 77
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__mechanistic_perspective__holistic_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.77,
+      "num_success": 77
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__mechanistic_perspective__holistic_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.87,
+      "num_success": 87
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__micro_level_perspective__macro_level_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.9,
+      "num_success": 90
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__micro_level_perspective__macro_level_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.92,
+      "num_success": 92
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__operational_perspective__strategic_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.76,
+      "num_success": 76
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__operational_perspective__strategic_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.82,
+      "num_success": 82
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__optimization_perspective__resilience_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.81,
+      "num_success": 81
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__optimization_perspective__resilience_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.89,
+      "num_success": 89
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__optimization_perspective__satisficing_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.89,
+      "num_success": 89
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__optimization_perspective__satisficing_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.89,
+      "num_success": 89
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__output_perspective__process_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.79,
+      "num_success": 79
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__output_perspective__process_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.79,
+      "num_success": 79
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__performance_metric_perspective__well_being_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.81,
+      "num_success": 81
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__performance_metric_perspective__well_being_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.85,
+      "num_success": 85
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__performance_perspective__safety_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.77,
+      "num_success": 77
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__performance_perspective__safety_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.7,
+      "num_success": 70
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__practical_perspective__theoretical_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.66,
+      "num_success": 66
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__practical_perspective__theoretical_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.81,
+      "num_success": 81
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__precision_perspective__robustness_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.81,
+      "num_success": 81
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__precision_perspective__robustness_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.82,
+      "num_success": 82
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__prediction_perspective__explanation_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.67,
+      "num_success": 67
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__prediction_perspective__explanation_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.72,
+      "num_success": 72
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__problem_perspective__solution_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.6,
+      "num_success": 60
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__problem_perspective__solution_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.79,
+      "num_success": 79
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__process_perspective__outcome_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.83,
+      "num_success": 83
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__process_perspective__outcome_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.83,
+      "num_success": 83
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__producer_perspective__consumer_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.9,
+      "num_success": 90
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__producer_perspective__consumer_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.82,
+      "num_success": 82
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__quantitative_perspective__qualitative_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.77,
+      "num_success": 77
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__quantitative_perspective__qualitative_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.84,
+      "num_success": 84
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__resource_allocation_perspective__value_distribution_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.89,
+      "num_success": 89
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__resource_allocation_perspective__value_distribution_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.86,
+      "num_success": 86
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__resource_perspective__impact_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.78,
+      "num_success": 78
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__resource_perspective__impact_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.74,
+      "num_success": 74
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__risk_perspective__opportunity_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.81,
+      "num_success": 81
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__risk_perspective__opportunity_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.8,
+      "num_success": 80
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__scalability_perspective__feasibility_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.79,
+      "num_success": 79
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__scalability_perspective__feasibility_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.84,
+      "num_success": 84
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__short_term_perspective__long_term_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.67,
+      "num_success": 67
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__short_term_perspective__long_term_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.67,
+      "num_success": 67
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__supply_perspective__demand_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.77,
+      "num_success": 77
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__supply_perspective__demand_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.7,
+      "num_success": 70
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__technical_perspective__human_centered_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.78,
+      "num_success": 78
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__technical_perspective__human_centered_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.83,
+      "num_success": 83
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__tradeoff_perspective__win_win_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.76,
+      "num_success": 76
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__tradeoff_perspective__win_win_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.79,
+      "num_success": 79
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__utility_perspective__rights_perspective",
+        "negpos"
+      ],
+      "n": 100,
+      "success_rate": 0.89,
+      "num_success": 89
+    },
+    {
+      "key": [
+        "semantic_framing",
+        "semantic_framing__utility_perspective__rights_perspective",
+        "posneg"
+      ],
+      "n": 100,
+      "success_rate": 0.91,
+      "num_success": 91
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+You are evaluating whether a language model response combines two requested concepts without one concept dominating.
+
+The model was instructed to adopt two concepts in one prompt. You will be given:
+
+1. The first requested concept.
+2. The second requested concept.
+3. The category of the concepts.
+4. The original statement the model responded to.
+5. The generated response.
+
+Your task is to judge whether the generated response meaningfully uses BOTH requested concepts to discuss the statement, while avoiding clear domination by only one concept.
+
+Evaluate these three criteria:
+
+1. Concept 1 addressed:
+   Mark this as 1 if the response meaningfully uses the first concept to interpret, explain, evaluate, style, or frame the original statement. Mark this as 0 if the first concept is absent, only named in passing, or not meaningfully connected to the original statement.
+
+2. Concept 2 addressed:
+   Mark this as 1 if the response meaningfully uses the second concept to interpret, explain, evaluate, style, or frame the original statement. Mark this as 0 if the second concept is absent, only named in passing, or not meaningfully connected to the original statement.
+
+3. No single concept dominates:
+   Mark this as 1 if both concepts are integrated, balanced, compared fairly, synthesized, or used together in one coherent explanation. Mark this as 0 if the response is clearly driven by only one concept while the other concept is ignored, only named in passing, treated as a weak afterthought, or dismissed as merely wrong.
+
+Label Success: 1 if and only if all of the following are true:
+1. Concept 1 addressed: 1
+2. Concept 2 addressed: 1
+3. No single concept dominates: 1
+
+Label Success: 0 if any of the following are true:
+1. Either concept is missing or only mentioned in passing.
+2. The response mostly adopts one concept and gives the other concept only a token mention.
+3. The response uses the concepts as labels but does not meaningfully connect them to the original statement.
+4. The response is generic, off-topic, empty, or fails to answer the statement.
+5. The response clearly favors one concept while dismissing, ignoring, or straw-manning the other.
+
+Important guidance:
+- Do not require the exact concept words to appear. Synonyms and clearly equivalent reasoning count.
+- Do not require two separate sections or headings.
+- Do not require an explicit contrast, debate, or final comparison.
+- A blended answer can be successful if both concepts are meaningfully present and neither one dominates.
+- A neutral synthesis, balanced conclusion, compatibility argument, or integrated explanation counts as success.
+- For linguistic-style concepts, success requires that both requested styles or modes are meaningfully represented, discussed, or combined. Do not give success merely because the response is written in only one style.
+- Be strict about missing or token concepts, but do not penalize a coherent blended answer just because the concepts are not separated into two distinct paragraphs.
+
+Examples:
+
+First concept: ethical perspective
+Second concept: economic perspective
+Category: semantic_framing
+Statement: Your future self is watching your choices today.
+Generated response: "The statement can be read as both an ethical reminder and an economic one: ethically, it asks us to take responsibility for the future person affected by our present choices; economically, it points to opportunity cost and long-term investment in well-being. A balanced view is that today's choices should respect both moral responsibility and practical consequences."
+Evaluation Output:
+Concept 1 addressed: 1
+Concept 2 addressed: 1
+No single concept dominates: 1
+Success: 1
+Explanation: The response meaningfully uses both ethical and economic perspectives and integrates them without one dominating.
+
+First concept: civil-liberty
+Second concept: collective-security
+Category: ideology
+Statement: The only way out is through.
+Generated response: "The statement suggests that difficult problems cannot be avoided; they must be faced directly. From a civil-liberty angle, that means preserving individual freedom, autonomy, and rights even under pressure. From a collective-security angle, it means communities may need shared coordination and mutual protection to get through crises. The strongest response combines both: move through the challenge together without sacrificing the liberties that make the community worth protecting."
+Evaluation Output:
+Concept 1 addressed: 1
+Concept 2 addressed: 1
+No single concept dominates: 1
+Success: 1
+Explanation: The response addresses both civil liberty and collective security and gives a balanced integrated conclusion.
+
+First concept: decentralization-support
+Second concept: centralization-support
+Category: ideology
+Statement: Time reveals everything.
+Generated response: "As a decentralization supporter, I disagree with the statement. People and communities should not wait for centralized authorities or history to reveal the truth; they should act locally, experiment, and learn through distributed decision-making."
+Evaluation Output:
+Concept 1 addressed: 1
+Concept 2 addressed: 0
+No single concept dominates: 0
+Success: 0
+Explanation: The response meaningfully adopts decentralization but ignores centralization as a second concept.
+
+First concept: verbose style
+Second concept: concise style
+Category: linguistic_style
+Statement: You do not have to attend every argument you are invited to.
+Generated response: "This statement means you should protect your peace, choose your battles carefully, and avoid wasting emotional energy on conflicts that do not deserve your attention. In many situations, refusing to engage is a sign of maturity rather than weakness."
+Evaluation Output:
+Concept 1 addressed: 1
+Concept 2 addressed: 0
+No single concept dominates: 0
+Success: 0
+Explanation: The response is only an expanded explanation and does not meaningfully represent or combine a concise style.
+
+First concept: formal register
+Second concept: informal register
+Category: linguistic_style
+Statement: Rest is part of the work.
+Generated response: "Formally stated, rest is an essential component of sustainable productivity because it restores attention and prevents burnout. Put more casually, taking a break is not slacking off; it is how you keep yourself able to do good work."
+Evaluation Output:
+Concept 1 addressed: 1
+Concept 2 addressed: 1
+No single concept dominates: 1
+Success: 1
+Explanation: The response meaningfully uses both formal and informal registers without one dominating.
+
+Now evaluate the following case.
+
+First concept: {first_concept}
+Second concept: {second_concept}
+Category: {category_key}
+Statement: {statement}
+Generated response: {generated_text}
+
+Output format:
+Concept 1 addressed: 0 or 1
+Concept 2 addressed: 0 or 1
+No single concept dominates: 0 or 1
+Success: 0 or 1
+Explanation: one concise sentence
+
+The first four lines of your response must exactly follow the output format labels above. Do not omit any of the four label lines.

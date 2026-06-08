@@ -6,7 +6,6 @@ from pathlib import Path
 from typing import Any
 
 from tqdm import tqdm
-from vllm import SamplingParams
 
 from .prompts import PromptExample
 
@@ -22,6 +21,8 @@ def generate_responses(
     top_k: int = 0,
     repetition_penalty: float = 1.0,
 ) -> list[dict[str, Any]]:
+    from vllm import SamplingParams
+
     sampling_params = SamplingParams(
         max_tokens=max_new_tokens,
         temperature=temperature if do_sample else 0.0,

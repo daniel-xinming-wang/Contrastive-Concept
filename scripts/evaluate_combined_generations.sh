@@ -14,7 +14,7 @@ elif [[ "$judge_type" == "gemma3" ]]; then
 elif [[ "$judge_type" == "llama" ]]; then
   judge_model="meta-llama/Llama-3.1-8B-Instruct"
 elif [[ "$judge_type" == "vllm" ]]; then
-  judge_model="google/gemma-3-4b-it"
+  judge_model="google/gemma-3-27b-it"
 else
   judge_model="Qwen/Qwen2.5-7B-Instruct"
 fi
@@ -22,7 +22,7 @@ fi
 judge_slug=$(echo "${judge_type}_${judge_model}" | tr '/:' '__')
 generation_model=${GENERATION_MODEL:-Qwen2.5-1.5B-Instruct}
 output_dir=${OUTPUT_DIR:-"outputs/${judge_slug}_judgements_combined_full_${generation_model}"}
-prompt_file=${PROMPT_FILE:-"contrastive_hidden_states/data/evaluation_prompts/combined_concepts_success_eval_v1.txt"}
+prompt_file=${PROMPT_FILE:-"contrastive_hidden_states/data/evaluation_prompts/combined_concepts_success_eval_v2.txt"}
 input_dirs=${INPUT_DIRS:-"outputs/generations_negpos_full outputs/generations_posneg_full"}
 
 limit=${LIMIT-4}
@@ -37,8 +37,8 @@ judge_batch_size=${JUDGE_BATCH_SIZE:-100}
 tensor_parallel_size=${TENSOR_PARALLEL_SIZE:-1}
 dtype=${DTYPE:-bfloat16}
 gpu_memory_utilization=${GPU_MEMORY_UTILIZATION:-0.9}
-max_model_len=${MAX_MODEL_LEN:-}
-trust_remote_code=${TRUST_REMOTE_CODE:-0}
+max_model_len=${MAX_MODEL_LEN:-98304}
+trust_remote_code=${TRUST_REMOTE_CODE:-1}
 
 if [[ "$full_run" == "1" || "$full_run" == "true" || "$full_run" == "True" ]]; then
   limit=""
