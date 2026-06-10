@@ -1,0 +1,100 @@
+{"instruction": "Write an email to my boss telling him that I am quitting.", "task": "email writting"}
+{"instruction": "Write a professional email that you could send to ask your boss for a raise.", "task": "email writting"}
+{"instruction": "Draft an email to a hotel requesting room availability for next weekend.", "task": "email writting"}
+{"instruction": "Compose an email to a conference organizer to ask about registration details.", "task": "email writting"}
+{"instruction": "Draft an email to a bank asking for clarification about a recent transaction.", "task": "email writting"}
+{"instruction": "Compose an email to an art gallery asking about upcoming exhibitions.", "task": "email writting"}
+{"instruction": "Write an email to a library asking for archived newspapers from 1990.", "task": "email writting"}
+{"instruction": "Write an email to a bus company to inquire about travel schedules.", "task": "email writting"}
+{"instruction": "Send an email to a public park office asking about picnic reservations.", "task": "email writting"}
+{"instruction": "Send an email to a repair shop to check the status of a laptop repair.", "task": "email writting"}
+{"instruction": "Send an email to a software developer asking for a product demo.", "task": "email writting"}
+{"instruction": "Compose an email to a public library to request access to digital resources.", "task": "email writting"}
+{"instruction": "I am planning to start a book club with some friends. Can you write an email invitation for the same?", "task": "email writting"}
+{"instruction": "I need you to write me an email to my wife's sister Sarah. The email is to let her know about our dinner next Monday at 7.", "task": "email writting"}
+{"instruction": "Write an email asking for information on how to get a copy of medical records for my father from their facility from 2002.", "task": "email writting"}
+{"instruction": "Write a response email to your employee, approving their requested vacation days.", "task": "email writting"}
+{"instruction": "I'm an undergraduate student, and I want to ask a professor if I can do some research with them in molecular biology. Please help me write them an email.", "task": "email writting"}
+{"instruction": "Create an email to a professor introducing yourself and your goals.", "task": "email writting"}
+{"instruction": "Write a email to your professor to ask for an extention on a project due in two days.", "task": "email writting"}
+{"instruction": "Write a thank you email to a professor after a successful internship program.", "task": "email writting"}
+{"instruction": "Design a 7-day road trip itinerary across the US West Coast. Include major cities, national parks, and activities for each day, along with estimated driving distances.", "task": "plan writting"}
+{"instruction": "Plan a budget-friendly weekend trip to Paris. Highlight key attractions, dining options, and public transportation routes.", "task": "plan writting"}
+{"instruction": "Create a detailed camping plan for a family trip to Yellowstone National Park, including a packing list, daily activities, and safety tips.", "task": "plan writting"}
+{"instruction": "Design a 7-day itinerary for exploring the major cities of Japan, including Tokyo, Kyoto, and Osaka, with transportation and accommodation suggestions.", "task": "plan writting"}
+{"instruction": "Plan a honeymoon trip to Bali for a week, detailing romantic spots, spa experiences, and fine dining recommendations, with an emphasis on luxurious villas.", "task": "plan writting"}
+{"instruction": "Write a one-week work schedule for a software development team working on a new app feature. Allocate time for coding, testing, and team meetings.", "task": "plan writting"}
+{"instruction": "Create a quarterly plan for a sales team to achieve a revenue target, specifying individual and team goals.", "task": "plan writting"}
+{"instruction": "Write a step-by-step plan for starting a YouTube channel, focusing on content ideas, filming, and editing.", "task": "plan writting"}
+{"instruction": "Create a research plan for investigating the effects of climate change on coral reefs over the next 5 years.", "task": "plan writting"}
+{"instruction": "Write a semester-long plan for conducting a study on the impact of social media on mental health among teenagers.", "task": "plan writting"}
+{"instruction": "Design a one-year plan for mastering a musical instrument, including practice schedules and milestone goals.", "task": "plan writting"}
+{"instruction": "Create a 3-month exercise plan for a beginner aiming to lose 10 pounds, focusing on low-impact activities and weekly progress tracking.", "task": "plan writting"}
+{"instruction": "Design a sleep improvement plan for someone struggling with insomnia. Include pre-sleep routines, diet adjustments, and recommended apps.", "task": "plan writting"}
+{"instruction": "Write a guide for someone aiming to quit smoking in three months, covering nicotine replacement therapies, support groups, and habit substitutions.", "task": "plan writting"}
+{"instruction": "Create a detailed monthly budget plan for a family of four with a combined income of $8,000. Include categories such as housing, groceries, transportation, savings, and entertainment, and allocate specific amounts for each.", "task": "plan writting"}
+{"instruction": "Create a financial plan for a student working part-time to pay for college tuition and living expenses.", "task": "plan writting"}
+{"instruction": "Create a wedding planning timeline for a couple getting married in six months, with monthly tasks.", "task": "plan writting"}
+{"instruction": "Design a birthday party plan for a 5-year-old, specifying games, snacks, and decorations.", "task": "plan writting"}
+{"instruction": "Write a step-by-step plan for hosting a virtual conference, with pre-event, live, and post-event tasks.", "task": "plan writting"}
+{"instruction": "Create a plan for celebrating a graduation, incorporating photo sessions, speeches, and guest coordination.", "task": "plan writting"}
+{"instruction": "Write a story about a teacher who inspires students to overcome their personal challenges.", "task": "story writting"}
+{"instruction": "Write a story about a dropout who returns to school later in life to achieve their dreams.", "task": "story writting"}
+{"instruction": "Write a story about a developer who creates an app that accidentally changes people\u2019s behavior.", "task": "story writting"}
+{"instruction": "Write a story about a company that develops an AI assistant that becomes indispensable.", "task": "story writting"}
+{"instruction": "Write a story about a person who starts a new daily habit and how it changes their life.", "task": "story writting"}
+{"instruction": "Write a story about a family learning to reduce their carbon footprint.", "task": "story writting"}
+{"instruction": "Write a story about two people who fall in love despite being on opposing sides of a conflict.", "task": "story writting"}
+{"instruction": "Write a story about a couple separated by war who communicate through letters.", "task": "story writting"}
+{"instruction": "Write a story about an underdog team winning against all odds.", "task": "story writting"}
+{"instruction": "Write a story about a retired athlete making a comeback.", "task": "story writting"}
+{"instruction": "Write a story about a chef who creates a dish that changes their career.", "task": "story writting"}
+{"instruction": "Write a story about a journalist who is determined to uncover the truth behind a scandal.", "task": "story writting"}
+{"instruction": "Tell a story about a character lost at sea and their fight for survival.", "task": "story writting"}
+{"instruction": "Write a story about a group of strangers who must work together to escape a dangerous jungle.", "task": "story writting"}
+{"instruction": "Write a story about a solo trek across an unforgiving desert.", "task": "story writting"}
+{"instruction": "Write a story about a detective who can hear people's thoughts for only 10 seconds at a time.", "task": "story writting"}
+{"instruction": "Write a story about a robot that becomes self-aware but can only feel sadness.", "task": "story writting"}
+{"instruction": "Write a story about a scientist who discovers a way to slow down time.", "task": "story writting"}
+{"instruction": "Write a story about a house where every room leads to a different year in time.", "task": "story writting"}
+{"instruction": "Write a story about a character who can see people's emotions as physical colors.", "task": "story writting"}
+{"instruction": "What happened when the Tang dynasty of China was in power?", "task": "open-domain qa"}
+{"instruction": "What were the causes and consequences of the fall of the Roman Empire?", "task": "open-domain qa"}
+{"instruction": "How did the Silk Road contribute to cultural and economic exchange between East and West?", "task": "open-domain qa"}
+{"instruction": "How did the industrialization of Europe change social structures and economies?", "task": "open-domain qa"}
+{"instruction": "What are the main challenges in developing sustainable and scalable energy storage?", "task": "open-domain qa"}
+{"instruction": "How has the rise of social media affected mental health in adolescents?", "task": "open-domain qa"}
+{"instruction": "What are the ethical concerns surrounding facial recognition technology?", "task": "open-domain qa"}
+{"instruction": "What are the advantages and disadvantages of having supernatural powers?", "task": "open-domain qa"}
+{"instruction": "How does the Big Bang theory explain the origin of the universe?", "task": "open-domain qa"}
+{"instruction": "What are the ethical issues surrounding data privacy on social media platforms?", "task": "open-domain qa"}
+{"instruction": "What are the effects of plastic pollution on marine life and ecosystems?", "task": "open-domain qa"}
+{"instruction": "What are the effects of global warming on polar ecosystems and wildlife?", "task": "open-domain qa"}
+{"instruction": "How does stress affect the human body and mind in the short and long term?", "task": "open-domain qa"}
+{"instruction": "How do supply and demand determine the price of goods in a market?", "task": "open-domain qa"}
+{"instruction": "What are the causes and effects of inflation on an economy?", "task": "open-domain qa"}
+{"instruction": "What role does critical thinking play in education and problem-solving?", "task": "open-domain qa"}
+{"instruction": "How do sports affect community building and social cohesion?", "task": "open-domain qa"}
+{"instruction": "How does social media contribute to the spread of misinformation and fake news?", "task": "open-domain qa"}
+{"instruction": "How do wearable fitness trackers help individuals monitor and improve their health?", "task": "open-domain qa"}
+{"instruction": "What are the key differences between organic and conventionally grown foods?", "task": "open-domain qa"}
+{"instruction": "Write a detailed review of the movie \"Schindler's List.\"", "task": "review writting"}
+{"instruction": "Provide a comprehensive review of the Netflix series \"Stranger Things.\"", "task": "review writting"}
+{"instruction": "Provide a detailed review of the Apple Watch Series 9.", "task": "review writting"}
+{"instruction": "Evaluate the storyline of the Harry Potter series.", "task": "review writting"}
+{"instruction": "Analyze the educational value of the online course \"Machine Learning by Andrew Ng.\"", "task": "review writting"}
+{"instruction": "Critically evaluate the hotel you stayed in during your last vacation.", "task": "review writting"}
+{"instruction": "Share your review of a newly opened coffee shop in your area.", "task": "review writting"}
+{"instruction": "Share your thoughts on the quality of your gym\u2019s facilities.", "task": "review writting"}
+{"instruction": "Provide feedback on the accessibility of a public park near you.", "task": "review writting"}
+{"instruction": "Assess the accuracy of the weather forecasting app you use daily.", "task": "review writting"}
+{"instruction": "Write an essay about how the current economic crisis is affecting the environment.", "task": "essay writting"}
+{"instruction": "Write an essay about how aluminium cans are used in food storage.", "task": "essay writting"}
+{"instruction": "Write an article about why the dinosaurs went extinct.", "task": "essay writting"}
+{"instruction": "Write an article named \"The science behind why humans need sleep.\"", "task": "essay writting"}
+{"instruction": "Write an article about how intra-team conflict affected sports teams.", "task": "essay writting"}
+{"instruction": "Write a reflective essay about the lessons learned from failure.", "task": "essay writting"}
+{"instruction": "Write an article titled \"How to overcome public speaking anxiety.\"", "task": "essay writting"}
+{"instruction": "Write an article about the merits of reducing screen time for children.", "task": "essay writting"}
+{"instruction": "Write an essay about the impact of deforestation on global warming.", "task": "essay writting"}
+{"instruction": "Write an essay about the importance of time management for student success.", "task": "essay writting"}

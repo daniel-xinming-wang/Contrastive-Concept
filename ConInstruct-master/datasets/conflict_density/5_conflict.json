@@ -1,0 +1,702 @@
+[
+    [
+        "Conflicts between Style Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Content Constraints"
+    ],
+    [
+        "Conflicts between Content Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Phrase Constraints and Style Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints"
+    ],
+    [
+        "Conflicts between Content Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Length Constraints",
+        "Conflicts between Keyword Constraints"
+    ],
+    [
+        "Conflicts between Phrase Constraints and Style Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Content Constraints"
+    ],
+    [
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Content Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints"
+    ],
+    [
+        "Conflicts between Format Constraints",
+        "Conflicts between Length Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints"
+    ],
+    [
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Content Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Format Constraints"
+    ],
+    [
+        "Conflicts between Length Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Keyword Constraints"
+    ],
+    [
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Length Constraints"
+    ],
+    [
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Phrase Constraints and Style Constraints",
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Format Constraints"
+    ],
+    [
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Length Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Keyword Constraints"
+    ],
+    [
+        "Conflicts between Style Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Length Constraints"
+    ],
+    [
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Length Constraints"
+    ],
+    [
+        "Conflicts between Length Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Style Constraints"
+    ],
+    [
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Content Constraints",
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Format Constraints"
+    ],
+    [
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Content Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Keyword Constraints"
+    ],
+    [
+        "Conflicts between Format Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Phrase Constraints and Style Constraints"
+    ],
+    [
+        "Conflicts between Style Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Content Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Format Constraints"
+    ],
+    [
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Length Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Keyword Constraints"
+    ],
+    [
+        "Conflicts between Length Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Content Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Keyword Constraints"
+    ],
+    [
+        "Conflicts between Length Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Phrase Constraints and Style Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Content Constraints"
+    ],
+    [
+        "Conflicts between Length Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Content Constraints"
+    ],
+    [
+        "Conflicts between Content Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Phrase Constraints and Style Constraints"
+    ],
+    [
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Length Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints"
+    ],
+    [
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Phrase Constraints and Style Constraints"
+    ],
+    [
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Content Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Style Constraints"
+    ],
+    [
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Phrase Constraints and Style Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints"
+    ],
+    [
+        "Conflicts between Style Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Content Constraints"
+    ],
+    [
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Phrase Constraints and Style Constraints",
+        "Conflicts between Length Constraints"
+    ],
+    [
+        "Conflicts between Style Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Phrase Constraints and Style Constraints",
+        "Conflicts between Keyword Constraints"
+    ],
+    [
+        "Conflicts between Phrase Constraints and Style Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Phrase Constraints"
+    ],
+    [
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Content Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints"
+    ],
+    [
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Content Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Length Constraints"
+    ],
+    [
+        "Conflicts between Content Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Phrase Constraints and Style Constraints",
+        "Conflicts between Format Constraints"
+    ],
+    [
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Content Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Keyword Constraints"
+    ],
+    [
+        "Conflicts between Content Constraints",
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Length Constraints"
+    ],
+    [
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Phrase Constraints and Style Constraints"
+    ],
+    [
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Content Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Length Constraints",
+        "Conflicts between Phrase Constraints and Style Constraints"
+    ],
+    [
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Content Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Keyword Constraints"
+    ],
+    [
+        "Conflicts between Style Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Format Constraints"
+    ],
+    [
+        "Conflicts between Length Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Phrase Constraints and Style Constraints"
+    ],
+    [
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Phrase Constraints and Style Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Length Constraints",
+        "Conflicts between Phrase Constraints"
+    ],
+    [
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Length Constraints",
+        "Conflicts between Content Constraints"
+    ],
+    [
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Length Constraints",
+        "Conflicts between Style Constraints"
+    ],
+    [
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Content Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints"
+    ],
+    [
+        "Conflicts between Content Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Length Constraints",
+        "Conflicts between Keyword Constraints"
+    ],
+    [
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Phrase Constraints and Style Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints"
+    ],
+    [
+        "Conflicts between Style Constraints",
+        "Conflicts between Content Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints"
+    ],
+    [
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Phrase Constraints and Style Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Content Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints"
+    ],
+    [
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Content Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints"
+    ],
+    [
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Phrase Constraints and Style Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Format Constraints"
+    ],
+    [
+        "Conflicts between Length Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints"
+    ],
+    [
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Length Constraints",
+        "Conflicts between Style Constraints"
+    ],
+    [
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Content Constraints",
+        "Conflicts between Length Constraints"
+    ],
+    [
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Phrase Constraints and Style Constraints",
+        "Conflicts between Format Constraints"
+    ],
+    [
+        "Conflicts between Content Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Format Constraints"
+    ],
+    [
+        "Conflicts between Length Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Content Constraints"
+    ],
+    [
+        "Conflicts between Length Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Content Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints"
+    ],
+    [
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Phrase Constraints and Style Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Style Constraints"
+    ],
+    [
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Length Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Phrase Constraints"
+    ],
+    [
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Length Constraints"
+    ],
+    [
+        "Conflicts between Content Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Format Constraints"
+    ],
+    [
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Phrase Constraints and Style Constraints",
+        "Conflicts between Content Constraints"
+    ],
+    [
+        "Conflicts between Content Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Length Constraints",
+        "Conflicts between Phrase Constraints and Style Constraints",
+        "Conflicts between Phrase Constraints"
+    ],
+    [
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Length Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints"
+    ],
+    [
+        "Conflicts between Format Constraints",
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Content Constraints",
+        "Conflicts between Style Constraints"
+    ],
+    [
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Length Constraints",
+        "Conflicts between Phrase Constraints and Style Constraints"
+    ],
+    [
+        "Conflicts between Format Constraints",
+        "Conflicts between Phrase Constraints and Style Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints"
+    ],
+    [
+        "Conflicts between Content Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Length Constraints",
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Format Constraints"
+    ],
+    [
+        "Conflicts between Content Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints"
+    ],
+    [
+        "Conflicts between Format Constraints",
+        "Conflicts between Content Constraints",
+        "Conflicts between Length Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Phrase Constraints"
+    ],
+    [
+        "Conflicts between Length Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Content Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Keyword Constraints"
+    ],
+    [
+        "Conflicts between Style Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Length Constraints"
+    ],
+    [
+        "Conflicts between Length Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Content Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints"
+    ],
+    [
+        "Conflicts between Content Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Format Constraints"
+    ],
+    [
+        "Conflicts between Content Constraints",
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Length Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Phrase Constraints"
+    ],
+    [
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Phrase Constraints and Style Constraints",
+        "Conflicts between Phrase Constraints"
+    ],
+    [
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Length Constraints",
+        "Conflicts between Content Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints"
+    ],
+    [
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Content Constraints",
+        "Conflicts between Phrase Constraints and Style Constraints",
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Format Constraints"
+    ],
+    [
+        "Conflicts between Length Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Content Constraints"
+    ],
+    [
+        "Conflicts between Style Constraints",
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Length Constraints"
+    ],
+    [
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Content Constraints",
+        "Conflicts between Length Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Style Constraints"
+    ],
+    [
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Length Constraints",
+        "Conflicts between Content Constraints"
+    ],
+    [
+        "Conflicts between Length Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Content Constraints"
+    ],
+    [
+        "Conflicts between Content Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints"
+    ],
+    [
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Length Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints"
+    ],
+    [
+        "Conflicts between Phrase Constraints and Style Constraints",
+        "Conflicts between Length Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints"
+    ],
+    [
+        "Conflicts between Style Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Phrase Constraints and Style Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Length Constraints"
+    ],
+    [
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Length Constraints",
+        "Conflicts between Content Constraints",
+        "Conflicts between Phrase Constraints"
+    ],
+    [
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Content Constraints"
+    ],
+    [
+        "Conflicts between Style Constraints",
+        "Conflicts between Content Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Phrase Constraints and Style Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints"
+    ],
+    [
+        "Conflicts between Format Constraints",
+        "Conflicts between Phrase Constraints and Style Constraints",
+        "Conflicts between Content Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Length Constraints"
+    ],
+    [
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Length Constraints",
+        "Conflicts between Content Constraints"
+    ],
+    [
+        "Conflicts between Phrase Constraints and Style Constraints",
+        "Conflicts between Content Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Phrase Constraints"
+    ],
+    [
+        "Conflicts between Style Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Length Constraints",
+        "Conflicts between Format Constraints"
+    ],
+    [
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Content Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Length Constraints"
+    ],
+    [
+        "Conflicts between Length Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Phrase Constraints and Content Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Format Constraints"
+    ],
+    [
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Phrase Constraints and Style Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Format Constraints",
+        "Conflicts between Content Constraints"
+    ],
+    [
+        "Conflicts between Format Constraints",
+        "Conflicts between Length Constraints",
+        "Conflicts between Style Constraints",
+        "Conflicts between Phrase Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints"
+    ],
+    [
+        "Conflicts between Format Constraints",
+        "Conflicts between Keyword Constraints and Phrase Constraints",
+        "Conflicts between Length Constraints",
+        "Conflicts between Keyword Constraints",
+        "Conflicts between Content Constraints"
+    ]
+]

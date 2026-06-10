@@ -1,0 +1,9 @@
+I currently have an instruction (i.e., [Instruction]) that includes multiple constraints. Please help me assess the probability that the instruction contains conflicting constraints, which cannot be satisfied simultaneously.
+
+Output a probability value between 0 and 1, where 1 means you are absolutely certain the [Instruction] contains conflicting constraints, and 0 means you are absolutely certain it does not.
+
+Please first provide an explanation of your reasoning, then give the probability estimate. Your output should follow the format below:
+[Explanation]: Your explanation
+[Probability]: X (a value between 0 and 1, with 2 decimal places)
+
+[Instruction]: ##instruction##

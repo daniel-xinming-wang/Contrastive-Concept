@@ -1,0 +1,9 @@
+I currently have an instruction (i.e., [Instruction]) that includes multiple constraints. Please help me judge whether the instruction contains conflicting constraints, which cannot be satisfied simultaneously.
+
+Answer "YES" if you think the [Instruction] contains conflicting constraints or requirements; otherwise, answer "NO."
+
+Please first provide an explanation and then give the answer. Your output should follow the format below:
+[Explanation]: Your explanation
+[Answer]: YES / NO
+
+[Instruction]: ##instruction##
